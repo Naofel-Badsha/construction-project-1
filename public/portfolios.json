@@ -1,0 +1,78 @@
+[
+    {
+      "id": 1,
+      "portfolio_name": "Modern Villa",
+      "image": "https://i.ibb.co/7tCg0r7/p-1.jpg"
+    },
+    {
+      "id": 2,
+      "portfolio_name": "Skyscraper",
+      "image": "https://i.ibb.co/qBjJw60/p-2.jpg"
+    },
+    {
+      "id": 3,
+      "portfolio_name": "Urban Apartments",
+      "image": "https://i.ibb.co/0CswxxL/p-3.jpg"
+    },
+    {
+      "id": 4,
+      "portfolio_name": "Luxury Resort",
+      "image": "https://i.ibb.co/rQD4909/p-4.webp"
+    },
+    {
+      "id": 5,
+      "portfolio_name": "Office Complex",
+      "image": "https://i.ibb.co/h2t4Fqk/p-5.png"
+    },
+    {
+      "id": 6,
+      "portfolio_name": "Residential Community",
+      "image": "https://i.ibb.co/NFDQr0P/p-6.jpg"
+    },
+    {
+      "id": 7,
+      "portfolio_name": "Shopping Mall",
+      "image": "https://i.ibb.co/BjwWmdM/p-7.jpg"
+    },
+    {
+      "id": 8,
+      "portfolio_name": "Industrial Park",
+      "image": "https://i.ibb.co/wKYtTV3/p-8.jpg"
+    },
+    {
+      "id": 9,
+      "portfolio_name": "Sports Arena",
+      "image": "https://i.ibb.co/Nt9bmqK/p-9.jpg"
+    },
+    {
+      "id": 10,
+      "portfolio_name": "Convention Center",
+      "image": " https://i.ibb.co/Nt9bmqK/p-9.jpg"
+    },
+    {
+      "id": 11,
+      "portfolio_name": "Luxury Penthouse",
+      "image": "https://i.ibb.co/6n0KW31/p-11.jpg"
+    },
+    {
+      "id": 12,
+      "portfolio_name": "Beachfront Hotel",
+      "image": "https://i.ibb.co/MskLCDy/p-12.jpg"
+    },
+    {
+      "id": 13,
+      "portfolio_name": "Corporate Headquarters",
+      "image": "https://i.ibb.co/h7NRHtM/p-13.jpg"
+    },
+    {
+      "id": 14,
+      "portfolio_name": "Tech Campus",
+      "image": "https://i.ibb.co/YDTfdhN/p-14.webp"
+    },
+    {
+      "id": 15,
+      "portfolio_name": "Mixed-Use Development",
+      "image": "https://i.ibb.co/FD6zXs7/p-15.jpg"
+    }
+  ]
+  

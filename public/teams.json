@@ -1,0 +1,99 @@
+[
+    { "id": 1,
+      "image": "https://i.ibb.co/nbPhcvy/t-1.jpg",
+      "member_name": "John Smith",
+      "degree": "BSc in Civil Engineering",
+      "title": "Project Manager"
+    },
+    { "id": 2,
+      "image": "https://i.ibb.co/p42J2vY/t-2.jpg",
+      "member_name": "Alice Johnson",
+      "degree": "BSc in Construction Management",
+      "title": "Site Supervisor"
+    },
+    { "id": 3,
+      "image": "https://i.ibb.co/9vR36NZ/t-3.jpg",
+      "member_name": "Robert Brown",
+      "degree": "BArch in Architecture",
+      "title": "Architect"
+    },
+    { "id": 4,
+      "image": "https://i.ibb.co/ftKnDTx/t-4.jpg",
+      "member_name": "Emily Davis",
+      "degree": "BSc in Civil Engineering",
+      "title": "Civil Engineer"
+    },
+    { "id": 5,
+      "image": "https://i.ibb.co/gFVcdpV/t-5.jpg",
+      "member_name": "Michael Wilson",
+      "degree": "BSc in Structural Engineering",
+      "title": "Structural Engineer"
+    },
+    { "id": 6,
+      "image": "https://i.ibb.co/LNSRgGL/t-6.jpg",
+      "member_name": "Jessica Taylor",
+      "degree": "BSc in Electrical Engineering",
+      "title": "Electrical Engineer"
+    },
+    { "id": 7, 
+      "image": "https://i.ibb.co/Pw5zP8r/t-7.webp",
+      "member_name": "David Moore",
+      "degree": "BSc in Mechanical Engineering",
+      "title": "Mechanical Engineer"
+    },
+    { "id": 8,
+      "image": "https://i.ibb.co/mvGSSww/t-8.jpg",
+      "member_name": "Sophia Martin",
+      "degree": "BSc in Quantity Surveying",
+      "title": "Quantity Surveyor"
+    },
+    { "id": 9,
+      "image": "https://i.ibb.co/RQzpM3v/t-9.webp",
+      "member_name": "James Anderson",
+      "degree": "Diploma in Occupational Safety",
+      "title": "Safety Officer"
+    },
+    {  "id": 10,
+      "image": "https://i.ibb.co/PDfsjsW/t-10.jpg",
+      "member_name": "Olivia Thomas",
+      "degree": "BSc in Land Surveying",
+      "title": "Surveyor"
+    },
+    { "id": 11,
+      "image": "https://i.ibb.co/H2dHjPr/t-11.jpg",
+      "member_name": "Ethan White",
+      "degree": "Diploma in Construction Management",
+      "title": "Foreman"
+    },
+    { "id": 12,
+      "image": "https://i.ibb.co/6wgHwzq/t-12.jpg",
+      "member_name": "Isabella Garcia",
+      "degree": "Diploma in Carpentry",
+      "title": "Carpenter"
+    },
+    { "id": 13,
+      "image": "https://i.ibb.co/2dwytjW/t-13.jpg",
+      "member_name": "Alexander Martinez",
+      "degree": "Diploma in Electrical Installation",
+      "title": "Electrician"
+    },
+    { "id": 14,
+      "image": "https://i.ibb.co/QNMT0kZ/t-14.jpg",
+      "member_name": "Mia Rodriguez",
+      "degree": "Diploma in Plumbing",
+      "title": "Plumber"
+    },
+    { "id": 15,
+      "image": "https://i.ibb.co/V33bWzn/T-16.jpg",
+      "member_name": "Daniel Martinez",
+      "degree": "BSc in Business Administration",
+      "title": "Procurement Specialist"
+    },
+    { "id": 16,
+      "image": "https://i.ibb.co/Pz5Pn1q/t-16.webp",
+      "member_name": "Sophia Hernandez",
+      "degree": "BA in Interior Design",
+      "title": "Interior Designer"
+    }
+  ]
+  
