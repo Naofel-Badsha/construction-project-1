@@ -43,7 +43,7 @@ const InventoryMnagement = () => {
       {/*-----------Search-Bar-----&-----Button----*/}
 
       {/*-----------Inventory Management---------Start-------*/}
-      <div className="">
+      <div className="py-10">
         <div className="overflow-x-auto">
           <table className=" w-full table-xl text-black">
             <thead>
