@@ -43,12 +43,6 @@ const Navbar = () => {
           </li>
         </>
       )}
-
-      <li>
-        <NavLink className="text-lg" to="/articles">
-          Articles
-        </NavLink>
-      </li>
       <li>
         <NavLink className="text-lg" to="/contact">
           Contact Us
@@ -88,7 +82,7 @@ const Navbar = () => {
             <div>
               <button
                 onClick={handleLogOut}
-                className="btn text-xl bg-sky-800 text-white "
+                className="btn text-xl bg-sky-800 text-white border-0"
               >
                 SingOut
               </button>
@@ -96,7 +90,7 @@ const Navbar = () => {
             </div>
           ) : (
             <Link to="/login">
-              <button className="btn text-xl">Login</button>
+              <button className="btn text-xl border-0">Login</button>
             </Link>
           )}
         </div>

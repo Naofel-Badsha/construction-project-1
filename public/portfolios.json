@@ -1,78 +1,418 @@
 [
-    {
+  {   
       "id": 1,
-      "portfolio_name": "Modern Villa",
-      "image": "https://i.ibb.co/7tCg0r7/p-1.jpg"
-    },
-    {
+      "projectName": "Green Valley Apartments",
+      "image": "https://i.ibb.co/7tCg0r7/p-1.jpg",
+      "location": "Austin, TX",
+      "projectType": "Residential",
+      "client": "ABC Realty",
+      "architect": "Smith & Partners",
+      "description": "Green Valley Apartments is a 250-unit residential complex designed to offer sustainable and modern living in the heart of Austin. The project focuses on energy efficiency, incorporating green building practices throughout the design and construction process. The apartments feature open floor plans, natural light optimization, and high-quality finishes.",
+      "completionDate": "2023-06-15",
+      "materials": [
+          "Recycled steel for structural framework,",
+          "Low-VOC paints and finishes,",
+          "Energy-efficient windows"
+      ],
+      "sustainability": "The project achieved LEED Gold Certification, with features such as solar panels, rainwater harvesting systems, and energy-efficient HVAC systems.",
+      "technology": "Each unit is equipped with smart home technology, allowing residents to control lighting, temperature, and security systems remotely.",
+      "challenges": "The site had a rocky terrain, which required extensive excavation and foundation work to ensure stability and longevity of the buildings.",
+      "budget": "45 million USD",
+
+      "contractors_1_name": "BuildWell Construction",
+      "contractors_1_role": "General Contractor",
+      "contractors_2_name": "EcoEnergy Solutions",
+      "contractors_2_role": "HVAC and Solar Installation"  
+  },
+  {   
       "id": 2,
-      "portfolio_name": "Skyscraper",
-      "image": "https://i.ibb.co/qBjJw60/p-2.jpg"
-    },
-    {
+      "projectName": "Downtown Office Tower",
+      "image": "https://i.ibb.co/qBjJw60/p-2.jpg",
+      "location": "Chicago, IL",
+      "projectType": "Commercial",
+      "client": "XYZ Corp",
+      "architect": "UrbanDesign Studio",
+      "description": "Downtown Office Tower is a 50-story high-rise located in the bustling financial district of Chicago. The building features modern office spaces, conference rooms, and recreational areas designed to meet the needs of contemporary businesses. The design includes floor-to-ceiling windows, high-speed elevators, and a green rooftop garden.",
+      "completionDate": "2022-11-01",
+      "materials": [
+          "Steel-reinforced concrete,",
+          "Tempered glass for facade,",
+          "Sustainable wood for interiors"
+      ],
+      "sustainability": "The building incorporates an energy-efficient HVAC system, green roofs, and water recycling systems, reducing its carbon footprint significantly.",
+      "technology": "An advanced building management system (BMS) is in place to automate lighting, climate control, and security systems, ensuring optimal energy use and safety.",
+      "challenges": "Constructing in a dense urban area required meticulous planning to minimize disruption to surrounding businesses and traffic.",
+      "budget": "150 million USD",
+
+      "contractors_1_name": "Skyline Builders",
+      "contractors_1_role": "General Contractor",
+
+      "contractors_2_name": "City Electrical Systems",
+      "contractors_2_role": "Electrical Installation" 
+  },
+  {
       "id": 3,
-      "portfolio_name": "Urban Apartments",
-      "image": "https://i.ibb.co/0CswxxL/p-3.jpg"
-    },
-    {
+      "projectName": "Seaside Resort",
+      "image": "https://i.ibb.co/0CswxxL/p-3.jpg",
+      "location": "Miami, FL",
+      "projectType": "Hospitality",
+      "client": "Oceanic Resorts",
+      "architect": "Coastal Architects",
+      "description": "Seaside Resort is a luxury beachfront property offering 200 guest rooms, multiple dining options, and recreational facilities including pools, a spa, and water sports. The design blends modern aesthetics with the natural beauty of the coastal environment, providing guests with an unparalleled experience.",
+      "completionDate": "2024-02-28",
+      "materials": [
+          "Marine-grade concrete,",
+          "Sustainable teak wood for decking,",
+          "Impact-resistant glass"
+      ],
+      "sustainability": "The resort is built with renewable materials and includes energy-efficient systems to minimize its environmental impact, along with a commitment to preserving the natural surroundings.",
+      "technology": "Rooms are equipped with automated lighting and climate control, while the resort uses a centralized system for managing energy use and guest services.",
+      "challenges": "Weather conditions posed significant challenges, requiring robust materials and construction methods to withstand coastal elements.",
+      "budget": "100 million USD",
+
+      "contractors_1_name": "SunCoast Construction",
+      "contractors_1_role": "General Contractor",
+
+      "contractors_2_name": "BlueWave Installations",
+      "contractors_2_role": "Marine Infrastructure" 
+  },
+  { 
       "id": 4,
-      "portfolio_name": "Luxury Resort",
-      "image": "https://i.ibb.co/rQD4909/p-4.webp"
-    },
-    {
+      "projectName": "City Park Renovation",
+      "image": "https://i.ibb.co/rQD4909/p-4.webp",
+      "location": "San Francisco, CA",
+      "projectType": "Infrastructure",
+      "client": "City of San Francisco",
+      "architect": "Landscape Innovations",
+      "description": "The City Park Renovation project involved the restoration of a historic urban park, enhancing its facilities while preserving its heritage. The project included the construction of new walkways, playgrounds, and water features, as well as extensive landscaping to improve green spaces for public use.",
+      "completionDate": "2023-09-10",
+      "materials": [
+          "Recycled concrete for walkways,",
+          "Native plants for landscaping,",
+          "Low-flow irrigation systems"
+      ],
+      "sustainability": "Water-efficient landscaping and LED lighting throughout the park have reduced energy and water consumption, aligning with the city's sustainability goals.",
+      "technology": "The park is equipped with Wi-Fi, surveillance cameras, and an app-based visitor guide to enhance the user experience.",
+      "challenges": "Balancing the need for modern amenities while preserving the park's historic elements was a key challenge.",
+      "budget": "30 million USD",
+
+      "contractors_1_name": "GreenField Construction",
+      "contractors_1_role": "General Contractor",
+
+      "contractors_2_name": "Urban Landscapes Inc.",
+      "contractors_2_role": "Landscaping" 
+  },
+  {    
       "id": 5,
-      "portfolio_name": "Office Complex",
-      "image": "https://i.ibb.co/h2t4Fqk/p-5.png"
-    },
-    {
+      "projectName": "Mountain View Villas",
+      "image": "https://i.ibb.co/3vXGhfh/josh6.webp",
+      "location": "Denver, CO",
+      "projectType": "Residential",
+      "client": "Mountain Homes Inc.",
+      "architect": "Highland Designs",
+      "description": "Mountain View Villas is a collection of luxury villas located in the scenic foothills of Denver. Each villa is designed to offer panoramic mountain views and modern amenities, including spacious layouts, high-end finishes, and outdoor living spaces.",
+      "completionDate": "2023-12-20",
+      "materials": [
+          "Locally sourced stone for exteriors,",
+          "High-performance glass,",
+          "Energy-efficient insulation"
+      ],
+      "sustainability": "The project focuses on energy efficiency and sustainability, with solar panel installations on all roofs and water-efficient landscaping.",
+      "technology": "Integrated security systems and smart home features allow residents to control their homes remotely.",
+      "challenges": "Constructing at high altitudes presented challenges related to weather and logistics, requiring careful planning and execution.",
+      "budget": "60 million USD",
+
+      "contractors_1_name": "Peak Construction",
+      "contractors_1_role": "General Contractor",
+
+      "contractors_2_name": "EcoHome Systems",
+      "contractors_2_role": "Solar and Smart Home Installation" 
+  },
+  {   
       "id": 6,
-      "portfolio_name": "Residential Community",
-      "image": "https://i.ibb.co/NFDQr0P/p-6.jpg"
-    },
-    {
+      "projectName": "Tech Park Headquarters",
+      "image": "https://i.ibb.co/NFDQr0P/p-6.jpg",
+      "location": "Seattle, WA",
+      "projectType": "Commercial",
+      "client": "Tech Innovations LLC",
+      "architect": "Modern Works",
+      "description": "Tech Park Headquarters is a state-of-the-art office complex designed to foster innovation and collaboration. The building features open office spaces, labs, meeting rooms, and recreational areas, all equipped with the latest technology.",
+      "completionDate": "2023-05-05",
+      "materials": [
+          "Glass and steel for structural elements,",
+          "Recycled materials for interiors,",
+          "Acoustic panels for soundproofing"
+      ],
+      "sustainability": "A rainwater harvesting system and energy-efficient lighting are key features of the building's sustainability plan.",
+      "technology": "The building is fully automated with a smart BMS that controls lighting, temperature, and security, optimizing energy use.",
+      "challenges": "Integrating advanced technology within budget while maintaining the project's design integrity was a significant challenge.",
+      "budget": "80 million USD",
+
+      "contractors_1_name": "Innovation Builders",
+      "contractors_1_role": "General Contractor",
+
+      "contractors_2_name": "TechNet Systems",
+      "contractors_2_role": "Technology Integration" 
+  },
+  {
       "id": 7,
-      "portfolio_name": "Shopping Mall",
-      "image": "https://i.ibb.co/BjwWmdM/p-7.jpg"
-    },
-    {
+      "projectName": "Sunset Beach Condominiums",
+      "image": "https://i.ibb.co/BjwWmdM/p-7.jpg",
+      "location": "Los Angeles, CA",
+      "projectType": "Residential",
+      "client": "Coastal Living Properties",
+      "architect": "Sunset Design Group",
+      "description": "Sunset Beach Condominiums is a luxury development offering oceanfront living in Los Angeles. The complex features spacious units with modern designs, private balconies, and direct beach access, making it a sought-after residence.",
+      "completionDate": "2024-04-30",
+      "materials": [
+          "Impact-resistant glass,",
+          "Marine-grade concrete,",
+          "Sustainable wood finishes"
+      ],
+      "sustainability": "Energy-efficient windows and insulation have been used throughout the project to reduce energy consumption.",
+      "technology": "The units are equipped with keyless entry systems and smart home technology for enhanced security and convenience.",
+      "challenges": "Navigating strict coastal construction regulations and protecting against environmental impacts were major challenges.",
+      "budget": "95 million USD",
+
+      "contractors_1_name": "Pacific Coast Builders",
+      "contractors_1_role": "General Contractor",
+
+      "contractors_2_name": "EcoShield Installations",
+      "contractors_2_role": "Window and Door Installation" 
+  },
+  {   
       "id": 8,
-      "portfolio_name": "Industrial Park",
-      "image": "https://i.ibb.co/wKYtTV3/p-8.jpg"
-    },
-    {
+      "projectName": "Metropolitan Cultural Center",
+       "image": "https://i.ibb.co/wKYtTV3/p-8.jpg",
+      "location": "New York, NY",
+      "projectType": "Cultural",
+      "client": "City of New York",
+      "architect": "ArtSpace Architects",
+      "description": "The Metropolitan Cultural Center is a landmark project that provides a venue for various cultural events, including art exhibitions, theater performances, and community workshops. The design blends contemporary and classical elements to reflect the city's rich cultural heritage.",
+      "completionDate": "2024-08-15",
+      "materials": [
+          "Granite and marble for facades,",
+          "Acoustic-treated wood for interiors,",
+          "Recycled steel for structure"
+      ],
+      "sustainability": "The building features energy-efficient HVAC systems, LED lighting, and water-saving fixtures, contributing to its overall sustainability.",
+      "technology": "The center is equipped with state-of-the-art audio-visual systems, automated lighting controls, and a central management system for seamless operation.",
+      "challenges": "Balancing modern requirements with the preservation of cultural and historical elements was a key challenge.",
+      "budget": "120 million USD",
+
+      "contractors_1_name": "Cultural Builders",
+      "contractors_1_role": "General Contractor",
+
+      "contractors_2_name": "SoundScape Installations",
+      "contractors_2_role": "Audio-Visual Integration" 
+  },
+  {
       "id": 9,
-      "portfolio_name": "Sports Arena",
-      "image": "https://i.ibb.co/Nt9bmqK/p-9.jpg"
-    },
-    {
+      "projectName": "EcoCity Mall",
+      "image": "https://i.ibb.co/Nt9bmqK/p-9.jpg",
+      "location": "San Diego, CA",
+      "projectType": "Commercial",
+      "client": "Retail Innovators Inc.",
+      "architect": "Urban Retail Design",
+      "description": "EcoCity Mall is a next-generation shopping complex focused on sustainability and community engagement. The mall features eco-friendly materials, energy-efficient systems, and a mix of retail, dining, and entertainment options designed to create a vibrant public space.",
+      "completionDate": "2024-07-22",
+      "materials": [
+          "Recycled glass and aluminum,",
+          "Low-VOC paints,",
+          "Bamboo flooring"
+      ],
+      "sustainability": "Solar panels, rainwater harvesting, and a green roof contribute to the mall's sustainability efforts, earning it a LEED Platinum certification.",
+      "technology": "The mall incorporates digital wayfinding, interactive kiosks, and a central management system for energy and security.",
+      "challenges": "Ensuring consistent energy supply for a large commercial space while meeting sustainability goals was a significant challenge.",
+      "budget": "200 million USD",
+
+      "contractors_1_name": "GreenBuild Builders",
+      "contractors_1_role": "General Contractor",
+
+      "contractors_2_name": "Sustainable Systems LLC",
+      "contractors_2_role": "Energy Solutions" 
+  },
+  {
       "id": 10,
-      "portfolio_name": "Convention Center",
-      "image": " https://i.ibb.co/Nt9bmqK/p-9.jpg"
-    },
-    {
+      "projectName": "Riverfront Luxury Apartments",
+      "img": "https://i.ibb.co/6vBzygP/beautiful.jpg",
+      "location": "Portland, OR",
+      "projectType": "Residential",
+      "client": "Urban Living Group",
+      "architect": "Modern Living Designs",
+      "description": "Riverfront Luxury Apartments is a premier residential complex located along the Portland waterfront. The project includes high-end apartments with scenic views, modern amenities, and easy access to urban conveniences, blending luxury with eco-friendly living.",
+      "completionDate": "2024-05-12",
+      "materials": [
+          "Locally sourced timber,",
+          "Recycled concrete,",
+          "High-performance glass"
+      ],
+      "sustainability": "The building is designed with sustainability in mind, incorporating solar panels, rainwater collection systems, and energy-efficient insulation.",
+      "technology": "Apartments feature smart home systems, including automated lighting, temperature control, and security features.",
+      "challenges": "Building along the riverfront required careful environmental planning and adherence to strict regulations to protect the natural habitat.",
+      "budget": "85 million USD",
+
+      "contractors_1_name": "RiverBuild Construction",
+      "contractors_1_role": "General Contractor",
+
+      "contractors_2_name": "EcoTech Solutions",
+      "contractors_2_role": "Smart Home and Solar Installation" 
+  },
+  { 
       "id": 11,
-      "portfolio_name": "Luxury Penthouse",
-      "image": "https://i.ibb.co/6n0KW31/p-11.jpg"
-    },
-    {
+      "projectName": "Mixed-Use Development",
+      "image": "https://i.ibb.co/6n0KW31/p-11.jpg",
+      "location": "Austin, TX",
+      "projectType": "Residential",
+      "client": "ABC Realty",
+      "architect": "Smith & Partners",
+      "description": "Mixed-Use Development is a 250-unit residential complex designed to offer sustainable and modern living in the heart of Austin. The project focuses on energy efficiency, incorporating green building practices throughout the design and construction process. The apartments feature open floor plans, natural light optimization, and high-quality finishes.",
+      "completionDate": "2023-06-15",
+      "materials": [
+          "Recycled steel for structural framework,",
+          "Low-VOC paints and finishes,",
+          "Energy-efficient windows"
+      ],
+      "sustainability": "The project achieved LEED Gold Certification, with features such as solar panels, rainwater harvesting systems, and energy-efficient HVAC systems.",
+      "technology": "Each unit is equipped with smart home technology, allowing residents to control lighting, temperature, and security systems remotely.",
+      "challenges": "The site had a rocky terrain, which required extensive excavation and foundation work to ensure stability and longevity of the buildings.",
+      "budget": "45 million USD",
+
+      "contractors_1_name": "BuildWell Construction",
+      "contractors_1_role": "General Contractor",
+
+      "contractors_2_name": "EcoEnergy Solutions",
+      "contractors_2_role": "HVAC and Solar Installation" 
+  },
+  {
       "id": 12,
-      "portfolio_name": "Beachfront Hotel",
-      "image": "https://i.ibb.co/MskLCDy/p-12.jpg"
-    },
-    {
+      "projectName": "Corporate Headquarters",
+      "image": "https://i.ibb.co/MskLCDy/p-12.jpg",
+      "location": "Chicago, IL",
+      "projectType": "Commercial",
+      "client": "XYZ Corp",
+      "architect": "UrbanDesign Studio",
+      "description": "Corporate Headquarters is a 50-story high-rise located in the bustling financial district of Chicago. The building features modern office spaces, conference rooms, and recreational areas designed to meet the needs of contemporary businesses. The design includes floor-to-ceiling windows, high-speed elevators, and a green rooftop garden.",
+      "completionDate": "2022-11-01",
+      "materials": [
+          "Steel-reinforced concrete,",
+          "Tempered glass for facade,",
+          "Sustainable wood for interiors"
+      ],
+      "sustainability": "The building incorporates an energy-efficient HVAC system, green roofs, and water recycling systems, reducing its carbon footprint significantly.",
+      "technology": "An advanced building management system (BMS) is in place to automate lighting, climate control, and security systems, ensuring optimal energy use and safety.",
+      "challenges": "Constructing in a dense urban area required meticulous planning to minimize disruption to surrounding businesses and traffic.",
+      "budget": "150 million USD",
+
+      "contractors_1_name": "Jamsen Construction",
+      "contractors_1_role": "General Contractor",
+
+      "contractors_2_name": "City Electrical Systems",
+      "contractors_2_role": "Electrical Installation" 
+  },
+  {
       "id": 13,
-      "portfolio_name": "Corporate Headquarters",
-      "image": "https://i.ibb.co/h7NRHtM/p-13.jpg"
-    },
-    {
+      "projectName": "Beachfront Hotel",
+      "image": "https://i.ibb.co/h7NRHtM/p-13.jpg",
+      "location": "Miami, FL",
+      "projectType": "Hospitality",
+      "client": "Oceanic Resorts",
+      "architect": "Coastal Architects",
+      "description": "Beachfront Hotel is a luxury beachfront property offering 200 guest rooms, multiple dining options, and recreational facilities including pools, a spa, and water sports. The design blends modern aesthetics with the natural beauty of the coastal environment, providing guests with an unparalleled experience.",
+      "completionDate": "2024-02-28",
+      "materials": [
+          "Marine-grade concrete,",
+          "Sustainable teak wood for decking,",
+          "Impact-resistant glass"
+      ],
+      "sustainability": "The resort is built with renewable materials and includes energy-efficient systems to minimize its environmental impact, along with a commitment to preserving the natural surroundings.",
+      "technology": "Rooms are equipped with automated lighting and climate control, while the resort uses a centralized system for managing energy use and guest services.",
+      "challenges": "Weather conditions posed significant challenges, requiring robust materials and construction methods to withstand coastal elements.",
+      "budget": "100 million USD",
+
+      "contractors_1_name": "SunCoast Construction",
+      "contractors_1_role": "General Contractor",
+
+      "contractors_2_name": "BlueWave Installations",
+      "contractors_2_role": "Marine Infrastructure" 
+  },
+  {
       "id": 14,
-      "portfolio_name": "Tech Campus",
-      "image": "https://i.ibb.co/YDTfdhN/p-14.webp"
-    },
-    {
+      "projectName": "Residential Community",
+      "image": "https://i.ibb.co/YDTfdhN/p-14.webp",
+      "location": "San Francisco, CA",
+      "projectType": "Infrastructure",
+      "client": "City of San Francisco",
+      "architect": "Landscape Innovations",
+      "description": "Residential Community project involved the restoration of a historic urban park, enhancing its facilities while preserving its heritage. The project included the construction of new walkways, playgrounds, and water features, as well as extensive landscaping to improve green spaces for public use.",
+      "completionDate": "2023-09-10",
+      "materials": [
+          "Recycled concrete for walkways,",
+          "Native plants for landscaping,",
+          "Low-flow irrigation systems"
+      ],
+      "sustainability": "Water-efficient landscaping and LED lighting throughout the park have reduced energy and water consumption, aligning with the city's sustainability goals.",
+      "technology": "The park is equipped with Wi-Fi, surveillance cameras, and an app-based visitor guide to enhance the user experience.",
+      "challenges": "Balancing the need for modern amenities while preserving the park's historic elements was a key challenge.",
+      "budget": "30 million USD",
+
+      "contractors_1_name": "GreenField Construction",
+      "contractors_1_role": "General Contractor",
+
+      "contractors_2_name": "Urban Landscapes Inc.",
+      "contractors_2_role": "Marine Landscaping" 
+  },
+  {
       "id": 15,
-      "portfolio_name": "Mixed-Use Development",
-      "image": "https://i.ibb.co/FD6zXs7/p-15.jpg"
-    }
-  ]
+      "projectName": "Office Complex",
+      "image": "https://i.ibb.co/FD6zXs7/p-15.jpg",
+      "location": "Denver, CO",
+      "projectType": "Residential",
+      "client": "Mountain Homes Inc.",
+      "architect": "Highland Designs",
+      "description": "Office Complex is a collection of luxury villas located in the scenic foothills of Denver. Each villa is designed to offer panoramic mountain views and modern amenities, including spacious layouts, high-end finishes, and outdoor living spaces.",
+      "completionDate": "2023-12-20",
+      "materials": [
+          "Locally sourced stone for exteriors,",
+          "High-performance glass,",
+          "Energy-efficient insulation"
+      ],
+      "sustainability": "The project focuses on energy efficiency and sustainability, with solar panel installations on all roofs and water-efficient landscaping.",
+      "technology": "Integrated security systems and smart home features allow residents to control their homes remotely.",
+      "challenges": "Constructing at high altitudes presented challenges related to weather and logistics, requiring careful planning and execution.",
+      "budget": "60 million USD",
+
+      "contractors_1_name": "Peak Construction",
+      "contractors_1_role": "General Contractor",
+
+      "contractors_2_name": "EcoHome Systems",
+      "contractors_2_role": "Solar and Smart Home Installation"
+  },
+  {
+      "id": 16,
+      "projectName": "Industrial Park",
+      "img": "https://i.ibb.co/6vBzygP/beautiful.jpg",
+      "location": "San Diego, CA",
+      "projectType": "Commercial",
+      "client": "Retail Innovators Inc.",
+      "architect": "Urban Retail Design",
+      "description": "Industrial Park is a next-generation shopping complex focused on sustainability and community engagement. The mall features eco-friendly materials, energy-efficient systems, and a mix of retail, dining, and entertainment options designed to create a vibrant public space.",
+      "completionDate": "2024-07-22",
+      "materials": [
+          "Recycled glass and aluminum,",
+          "Low-VOC paints,",
+          "Bamboo flooring"
+      ],
+      "sustainability": "Solar panels, rainwater harvesting, and a green roof contribute to the mall's sustainability efforts, earning it a LEED Platinum certification.",
+      "technology": "The mall incorporates digital wayfinding, interactive kiosks, and a central management system for energy and security.",
+      "challenges": "Ensuring consistent energy supply for a large commercial space while meeting sustainability goals was a significant challenge.",
+      "budget": "200 million USD",
+
+      "contractors_1_name": "Hongong Construction",
+      "contractors_1_role": "General Contractor",
+
+      "contractors_2_name": "Energy Solutions",
+      "contractors_2_role": "Solar and Sustainable Systems Installation"
+  }
+]
   

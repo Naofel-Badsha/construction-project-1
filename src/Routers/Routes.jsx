@@ -19,6 +19,8 @@ import SpecalClient from "../Pages/DashBoardPages/SpecalClient/SpecalClient";
 import TechnicianList from "../Pages/DashBoardPages/TechnicianList/TechnicianList";
 import InventoryMnagement from "../Pages/DashBoardPages/InventoryMnagement/InventoryMnagement";
 import ClientReview from "../Pages/DashBoardPages/ClientReview/ClientReview";
+import PortfolioDetails from "../Pages/Portfolio/PortfolioDetails";
+
 
 const routes = createBrowserRouter([
   {
@@ -51,15 +53,12 @@ const routes = createBrowserRouter([
       },
       {
         path: "/portfolio",
-        element: (
-          <PrivateRoute>
-            <Portfolio></Portfolio>
-          </PrivateRoute>
-        ),
+        element: <PrivateRoute><Portfolio></Portfolio></PrivateRoute>,
       },
       {
-        path: "/articles",
-        element: <Articles></Articles>,
+        path: "/portfolioDetails/:id",
+        element: <PrivateRoute><PortfolioDetails></PortfolioDetails></PrivateRoute>,
+        loader: () => fetch('/portfolios.json') 
       },
       {
         path: "/contact",

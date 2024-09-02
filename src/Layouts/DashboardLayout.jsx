@@ -16,8 +16,8 @@ const DashboardLayout = () => {
           <h1 className="text-3xl text-sky-900 py-4">Dashboard Layout</h1>
         </div>
 
-        <div className="flex gap-10">
-          <div  className={`w-[20%] absolute h-screen bg-slate-700 
+        <div className="flex gap-10 h-screen">
+          <div  className={`w-[20%] absolute h-full bg-slate-700 
             ${open ? "ml-2":"-ml-[500px]"}`}>
             <h3 className="text-xl text-center py-4 border-b-2 border-white">Hello Dashboard</h3>
 
@@ -45,7 +45,7 @@ const DashboardLayout = () => {
               </li>
             </ul>
           </div>
-          <div className={`w-full bg-[#f5f1f1] h-screen
+          <div className={`w-full bg-[#f5f1f1] h-full
             ${open ? "ml-0" : "w-full "}`}>
               {/* ml-44 */}
             {/*------------------*/}

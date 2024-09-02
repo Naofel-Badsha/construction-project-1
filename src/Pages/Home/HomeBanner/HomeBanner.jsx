@@ -1,4 +1,4 @@
-import HomeBannerImage from "../../../assets/h-banner-1.jpg";
+//import HomeBannerImage from "../../../assets/h-banner-1.jpg";
 
 const HomeBanner = () => {
   return (
@@ -8,7 +8,7 @@ const HomeBanner = () => {
         <div className="flex justify-between gap-12 flex-col lg:flex-row-reverse">
             {/*-----------Image--------Start---------*/}
             <div>
-              <img src={HomeBannerImage} className="w-full" />
+              <img src="https://i.ibb.co/PWsPPc4/pngtree-removebg-preview.png" className="w-full" />
 
               {/*-----Image--------contact------Start------*/}
               <div className="bg-sky-900 flex gap-16 p-6 flex-col md:flex-row lg:flex-row">
