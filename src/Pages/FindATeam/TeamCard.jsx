@@ -1,7 +1,7 @@
 const TeamCard = ({ team }) => {
   const { image, member_name, degree, title } = team;
   return (
-    <div className="border-4 border-sky-900 rounded-[17px]">
+    <div className="border-2 border-sky-900 rounded-[17px] hover:-translate-y-2 duration-150">
       <div className="card bg-white shadow-xl">
         <figure>
           <img

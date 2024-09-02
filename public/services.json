@@ -1,0 +1,158 @@
+[
+    {
+        "id": 1,
+        "name": "General Contracting",
+        "description": "Comprehensive management and execution of construction projects from start to finish.",
+        "category": "Construction Management",
+        "duration": "12-18 months",
+        "cost_estimate": "$500,000 - $2,000,000",
+        "phone": "+1-800-123-4567",
+        "email": "info@generalcontracting.com"
+    },
+    {
+        "id": 2,
+        "name": "Construction Management",
+        "description": "Supervision and oversight of construction projects, ensuring timely and within-budget completion.",
+        "category": "Project Management",
+        "duration": "Ongoing",
+        "cost_estimate": "$50,000 - $500,000",
+        "phone": "+1-800-23-5678",
+        "email": "info@constructionmanagement.com"
+    },
+    {
+        "id": 3,
+        "name": "Design-Build",
+        "description": "Integrated design and construction services to streamline project delivery.",
+        "category": "Integrated Services",
+        "duration": "8-15 months",
+        "cost_estimate": "$400,000 - $1,800,000",
+        "phone": "+1-800-345-6789",
+        "email": "info@designbuild.com"
+
+    },
+    {
+        "id": 4,
+        "name": "Pre-Construction Services",
+        "description": "Planning, cost estimating, and scheduling services to prepare projects before construction begins.",
+        "category": "Planning",
+        "duration": "2-3 months",
+        "cost_estimate": "$20,000 - $150,000",
+        "phone": "+1-800-456-7890",
+        "email": "info@preconstruction.com"
+
+    },
+    {
+        "id": 5,
+        "name": "Site Preparation",
+        "description": "Clearing, grading, and preparing construction sites for building.",
+        "category": "Site Development",
+        "duration": "1-2 months",
+        "cost_estimate": "$30,000 - $200,000",
+        "phone": "+1-800-567-8901",
+        "email": "info@sitepreparation.com"
+
+    },
+    {
+        "id": 6,
+        "name": "Foundation Work",
+        "description": "Installation of foundations, including excavation, formwork, and pouring concrete.",
+        "category": "Structural Work",
+        "duration": "2-4 weeks",
+        "cost_estimate": "$50,000 - $250,000",
+        "phone": "+1-800-678-9012",
+        "email": "info@foundationwork.com"
+
+    },
+    {
+        "id": 7,
+        "name": "Structural Steel Erection",
+        "description": "Erecting steel structures, including beams, columns, and frameworks.",
+        "category": "Structural Work",
+        "duration": "3-5 weeks",
+        "cost_estimate": "$100,000 - $500,000",
+        "phone": "+1-800-789-0123",
+        "email": "info@steelerection.com"
+        
+    },
+    {
+        "id": 8,
+        "name": "Concrete Construction",
+        "description": "Pouring and finishing concrete for foundations, floors, and structural elements.",
+        "category": "Structural Work",
+        "duration": "3-6 weeks",
+        "cost_estimate": "$80,000 - $400,000",
+        "phone": "+1-800-890-1234",
+        "email": "info@concreteconstruction.com"
+    },
+    {
+        "id": 9,
+        "name": "Masonry Work",
+        "description": "Installation of bricks, blocks, and stonework for structural and aesthetic purposes.",
+        "category": "Structural and Finishing Work",
+        "duration": "4-8 weeks",
+        "cost_estimate": "$70,000 - $350,000",
+        "phone": "+1-800-901-2345",
+        "email": "info@masonrywork.com"
+    },
+    {
+        "id": 10,
+        "name": "Electrical Installation",
+        "description": "Complete electrical systems installation, including wiring, lighting, and controls.",
+        "category": "Electrical Work",
+        "duration": "4-6 weeks",
+        "cost_estimate": "$60,000 - $300,000",
+        "phone": "+1-800-012-3456",
+        "email": "info@electricalinstallation.com"
+
+    },
+    {
+        "id": 11,
+        "name": "Plumbing and Piping",
+        "description": "Installation of plumbing systems, including water supply, drainage, and gas lines.",
+        "category": "Mechanical Work",
+        "duration": "3-5 weeks",
+        "cost_estimate": "$50,000 - $250,000",
+        "phone": "+1-800-123-4567",
+        "email": "info@plumbingandpiping.com"
+    },
+    {
+        "id": 12,
+        "name": "HVAC Installation",
+        "description": "Installation of heating, ventilation, and air conditioning systems.",
+        "category": "Mechanical Work",
+        "duration": "4-8 weeks",
+        "cost_estimate": "$80,000 - $400,000",
+        "phone": "+1-800-234-5678",
+        "email": "info@hvacinstallation.com"
+    },
+    {
+        "id": 13,
+        "name": "Roofing Services",
+        "description": "Installation and repair of roofing systems, including shingles, tiles, and flat roofs.",
+        "category": "Exterior Work",
+        "duration": "2-4 weeks",
+        "cost_estimate": "$40,000 - $200,000",
+        "phone": "+1-800-345-6789",
+        "email": "info@roofingservices.com"
+    },
+    {
+        "id": 14,
+        "name": "Interior Finishing",
+        "description": "Final interior touches, including drywall, painting, flooring, and trim work.",
+        "category": "Finishing Work",
+        "duration": "4-6 weeks",
+        "cost_estimate": "$50,000 - $300,000",
+        "phone": "+1-800-456-7890",
+        "email": "info@interiorfinishing.com"
+    },
+    {
+        "id": 15,
+        "name": "Landscaping and Site Development",
+        "description": "Design and installation of outdoor spaces, including lawns, gardens, and hardscaping.",
+        "category": "Site Development",
+        "duration": "2-3 months",
+        "cost_estimate": "$30,000 - $150,000",
+        "phone": "+1-800-567-8901",
+        "email": "info@landscaping.com"
+    }
+]

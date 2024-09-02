@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { useLoaderData, useParams } from "react-router-dom";
+import { Link, useLoaderData, useParams } from "react-router-dom";
 
 const PortfolioDetails = () => {
   const [portDetail, setPortDetail] = useState({});
@@ -27,25 +27,28 @@ const PortfolioDetails = () => {
           className="h-[600px] w-full object-cover rounded-lg" />
         </div>
         {/*----------Text--------------*/}
-        <div className="flex-1 w-full">
+        <div className="flex-1 w-full px-6">
         <h2 className="text-2xl md:text-3xl lg:text-4xl text-sky-800">{portDetail.projectName}</h2>
-        <p className="text-sky-800 text-2xl font-bold py-1 mt-5">Location: <small className="text-black text-xl font-medium ml-2 text-justify">{portDetail.location}</small></p>
-        <h4 className="text-sky-800 text-2xl font-bold py-1">Project Type: <small className="text-black text-xl font-medium ml-2 text-justify">{portDetail.projectType}</small></h4>
-        <h4 className="text-sky-800 text-2xl font-bold py-1">Client: <small className="text-black text-xl font-medium ml-2 text-justify">{portDetail.client}</small></h4>
-        <h4 className="text-sky-800 text-2xl font-bold py-1">Architect: <small className="text-black text-xl font-medium ml-2 text-justify">{portDetail.architect}</small></h4>
-        <h4 className="text-sky-800 text-2xl font-bold py-1">Completion Date: <small className="text-black text-xl font-medium ml-2 text-justify">{portDetail.completionDate}</small></h4>
-        <h4 className="text-sky-800 text-2xl font-bold py-1">Materials: <small className="text-black text-xl font-medium ml-2 text-justify">{portDetail.materials}</small></h4>
+        <p className="text-sky-800  md:text-2xl lg:text-2xl font-bold py-1 mt-5">Location: <small className="text-black md:text-xl font-medium ml-2 text-justify">{portDetail.location}</small></p>
+        <h4 className="text-sky-800 md:text-2xl lg:text-2xl font-bold py-1">Project Type: <small className="text-black md:text-xl font-medium ml-2 text-justify">{portDetail.projectType}</small></h4>
+        <h4 className="text-sky-800 md:text-2xl lg:text-2xl font-bold py-1">Client: <small className="text-black font-medium ml-2 text-justify">{portDetail.client}</small></h4>
+        <h4 className="text-sky-800 md:text-2xl lg:text-2xl font-bold py-1">Architect: <small className="text-black md:text-xl font-medium ml-2 text-justify">{portDetail.architect}</small></h4>
+        <h4 className="text-sky-800 md:text-2xl lg:text-2xl font-bold py-1">Completion Date: <small className="text-black md:text-xl font-medium ml-2 text-justify">{portDetail.completionDate}</small></h4>
+        <h4 className="text-sky-800 md:text-2xl lg:text-2xl font-bold py-1">Materials: <small className="text-black md:text-xl font-medium ml-2 text-justify">{portDetail.materials}</small></h4>
         
-        <p className="text-sky-800 text-2xl font-bold py-1 mt-5">Description: <small className="text-black text-xl font-medium ml-2 text-justify">{portDetail.description}</small></p>
-        <p className="text-sky-800 text-2xl font-bold py-1">Sustainability: <small className="text-black text-xl font-medium ml-2 text-justify">{portDetail.sustainability}</small></p>
-        <p className="text-sky-800 text-2xl font-bold py-1">Technology: <small className="text-black text-xl font-medium ml-2 text-justify">{portDetail.technology}</small></p>
-        <p className="text-sky-800 text-2xl font-bold py-1">Challenges: <small className="text-black text-xl font-medium ml-2 text-justify">{portDetail.challenges}</small></p>
-        <h4 className="text-sky-800 text-2xl font-bold py-1">Budget: <small className="text-black text-xl font-medium ml-2 text-justify">{portDetail.budget}</small></h4>
-        <p className="text-sky-800 text-2xl font-bold py-1">Contractors Name & Role: <small className="text-black text-xl font-medium ml-2 text-justify">{portDetail.contractors_1_name} & {portDetail.contractors_1_role}</small></p>
-        <p className="text-sky-800 text-2xl font-bold py-1">Contractors Name & Role: <small className="text-black text-xl font-medium ml-2 text-justify">{portDetail.contractors_2_name} & {portDetail.contractors_2_role}</small></p>
-        
-        
+        <p className="text-sky-800 md:text-2xl lg:text-2xl font-bold py-1 mt-5">Description: <small className="text-black md:text-xl font-medium ml-2 text-justify">{portDetail.description}</small></p>
+        <p className="text-sky-800 md:text-2xl lg:text-2xl font-bold py-1">Sustainability: <small className="text-black md:text-xl font-medium ml-2 text-justify">{portDetail.sustainability}</small></p>
+        <p className="text-sky-800 md:text-2xl lg:text-2xl font-bold py-1">Technology: <small className="text-black md:text-xl font-medium ml-2 text-justify">{portDetail.technology}</small></p>
+        <p className="text-sky-800 md:text-2xl lg:text-2xl font-bold py-1">Challenges: <small className="text-black md:text-xl font-medium ml-2 text-justify">{portDetail.challenges}</small></p>
+        <h4 className="text-sky-800 md:text-2xl lg:text-2xl font-bold py-1">Budget: <small className="text-black md:text-xl font-medium ml-2 text-justify">{portDetail.budget}</small></h4>
+        <p className="text-sky-800 md:text-2xl lg:text-2xl font-bold py-1">Contractors Name & Role: <small className="text-black md:text-xl font-medium ml-2 text-justify">{portDetail.contractors_1_name} & {portDetail.contractors_1_role}</small></p>
+        <p className="text-sky-800 md:text-2xl lg:text-2xl font-bold py-1">Contractors Name & Role: <small className="text-black md:text-xl font-medium ml-2 text-justify">{portDetail.contractors_2_name} & {portDetail.contractors_2_role}</small></p>
         </div>
+      </div>
+      <div className=" flex items-center justify-center py-10">
+      <Link to="/">
+       <button className="btn text-xl text-white bg-sky-700 border-0">Go to Home</button>
+      </Link>
       </div>
     </div>
   );

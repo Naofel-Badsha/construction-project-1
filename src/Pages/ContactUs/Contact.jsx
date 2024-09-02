@@ -18,42 +18,42 @@ const Contact = () => {
           {/*-----------Text----------Start---------*/}
           <div className="flex-1">
             {/*-------------Heading-----------*/}
-            <h1 className="text-3xl md:text-4xl lg:text-5xl text-sky-800 py-10">
+            <h1 className="px-6 text-2xl md:text-4xl lg:text-5xl text-sky-800 py-10">
               Contact Information
             </h1>
             
-            <div>
-              <h2 className="text-2xl text-black py-2 font-bold">
+            <div className="px-6">
+              <h2 className="text-xl md:text-2xl lg:text-2xl  text-black py-2 ">
                 Company Name:{" "}
-                <small className="text-xl text-slate-400 ml-3 font-medium">
+                <small className="md:text-xl lg:text-xl text-slate-400 ml-1 ">
                   Real Estate
                 </small>
               </h2>
-              <h2 className="text-2xl text-black py-2 font-bold">
+              <h2 className="text-xl md:text-2xl lg:text-2xl  text-black py-2 ">
                 Address:{" "}
-                <small className="text-xl text-slate-400 ml-3 font-medium">
+                <small className="md:text-xl lg:text-xl text-slate-400 ml-1">
                   Dhaka, Gulistan, Twintower-40/75
                 </small>
               </h2>
-              <h2 className="text-2xl text-black py-2 font-bold">
+              <h2 className="text-xl md:text-2xl lg:text-2xl  text-black py-2 ">
                 Phone Number:{" "}
-                <small className="text-xl text-slate-400 ml-3 font-medium">
+                <small className="md:text-xl lg:text-xl text-slate-400 ml-15">
                   01733457698
                 </small>
               </h2>
-              <h2 className="text-2xl text-black py-2 font-bold">
+              <h2 className="text-xl md:text-2xl lg:text-2xl  text-black py-2 ">
                 Email Address:{" "}
-                <small className="text-xl text-slate-400 ml-3 font-medium">
+                <small className="md:text-xl lg:text-xl text-slate-400 ml-1">
                   realstate@gmail.com
                 </small>
               </h2>
-              <h2 className="text-2xl text-black py-2 font-bold">
+              <h2 className="text-xl md:text-2xl lg:text-2xl  text-black py-2 ">
                 Website:{" "}
-                <small className="text-xl text-slate-400 ml-3 font-medium">.........</small>
+                <small className="md:text-xl lg:text-xl text-slate-400 ml-1">.........</small>
               </h2>
-              <h2 className="text-2xl text-black py-2 font-bold">
+              <h2 className="text-xl md:text-2xl lg:text-2xl  text-black py-2">
                 Business Hours:{" "}
-                <small className="text-xl text-slate-400 ml-3 font-medium">
+                <small className="md:text-xl lg:text-xl text-slate-400 ml-1">
                   [Days and Hours of Operation]
                 </small>
               </h2>
@@ -76,7 +76,7 @@ const Contact = () => {
 
           {/*-----------Text----------Start---------*/}
           <div className="flex-1 w-full">
-            <h1 className="text-3xl md:text-4xl lg:text-5xl text-sky-800 py-10">
+            <h1 className="px-6 text-2xl md:text-4xl lg:text-5xl text-sky-800 py-10">
               Contact Form
             </h1>
             <div>
@@ -85,7 +85,7 @@ const Contact = () => {
                   {/*------From-----Input------1-------*/}
                   <div className="form-control">
                     <label className="label">
-                      <span className="label-text text-xl text-white">
+                      <span className="label-text md:text-xl lg:text-xl text-white">
                         Name
                       </span>
                     </label>
@@ -99,7 +99,7 @@ const Contact = () => {
                   {/*------From-----Input------2-------*/}
                   <div className="form-control">
                     <label className="label">
-                      <span className="label-text text-xl text-white">
+                      <span className="label-text md:text-xl lg:text-xl text-white">
                         Email
                       </span>
                     </label>
@@ -113,7 +113,7 @@ const Contact = () => {
                   {/*------From-----Input------3-------*/}
                   <div className="form-control">
                     <label className="label">
-                      <span className="label-text text-xl text-white">
+                      <span className="label-text md:text-xl lg:text-xl text-white">
                         Phone
                       </span>
                     </label>
@@ -127,7 +127,7 @@ const Contact = () => {
                   {/*------From-----Input------4-------*/}
                   <div className="form-control">
                     <label className="label">
-                      <span className="label-text text-xl text-white">
+                      <span className="label-text md:text-xl lg:text-xl text-white">
                         Subject
                       </span>
                     </label>
@@ -141,7 +141,7 @@ const Contact = () => {
                   {/*------From------Textarea-----5-------*/}
                   <div className="form-control">
                     <label className="label">
-                      <span className="label-text text-xl text-white">
+                      <span className="label-text md:text-xl lg:text-xl text-white">
                         Messages
                       </span>
                     </label>
@@ -166,11 +166,12 @@ const Contact = () => {
         </div>
         {/*-----------Part------2--------End-------*/}
 
+
         {/*-----------Part------3--------Start-------*/}
-        <div className="flex gap-6  justify-between flex-col md:flex-row lg:flex-row py-10">
+        <div className="flex gap-6 px-6 justify-between flex-col md:flex-row lg:flex-row py-10">
           {/*--------1---------*/}
           <div>
-            <h2 className="text-2xl font-bold text-sky-800 py-4">
+            <h2 className="text-2xl text-sky-800 py-4">
               Social Media Links
             </h2>
             <div className="flex gap-6">
@@ -190,7 +191,7 @@ const Contact = () => {
           </div>
           {/*--------2---------*/}
           <div>
-            <h2 className="text-2xl font-bold text-sky-800 py-4">
+            <h2 className="text-2xl text-sky-800 py-4">
               Call to Action
             </h2>
             <div className="flex gap-6 flex-col">
@@ -210,11 +211,11 @@ const Contact = () => {
           </div>
           {/*--------3---------*/}
           <div>
-            <h2 className="text-2xl font-bold text-sky-800 py-4">
+            <h2 className="text-2xl text-sky-800 py-4">
               Office Locations
             </h2>
             <div>
-              <p className="text-xl text-black">
+              <p className="md:text-xl text-black">
                 Dhaka, Gulistan, Twintower-40/75
               </p>
             </div>

@@ -71,7 +71,7 @@ const Navbar = () => {
             </ul>
           </div>
           <a className="text-xl font-bold">
-            Real <span className="text-sky-900">Estate</span>
+            Real<span className="text-sky-900">Estate</span>
           </a>
         </div>
         <div className="navbar-center hidden lg:flex">
@@ -86,7 +86,6 @@ const Navbar = () => {
               >
                 SingOut
               </button>
-              <div className="text-black text-xl">{user.email}</div>
             </div>
           ) : (
             <Link to="/login">

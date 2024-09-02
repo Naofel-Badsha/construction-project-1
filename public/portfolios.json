@@ -228,14 +228,14 @@
 
       "contractors_1_name": "GreenBuild Builders",
       "contractors_1_role": "General Contractor",
-
+      
       "contractors_2_name": "Sustainable Systems LLC",
       "contractors_2_role": "Energy Solutions" 
   },
   {
       "id": 10,
       "projectName": "Riverfront Luxury Apartments",
-      "img": "https://i.ibb.co/6vBzygP/beautiful.jpg",
+      "image": "https://i.ibb.co/6vBzygP/beautiful.jpg",
       "location": "Portland, OR",
       "projectType": "Residential",
       "client": "Urban Living Group",
@@ -391,7 +391,7 @@
   {
       "id": 16,
       "projectName": "Industrial Park",
-      "img": "https://i.ibb.co/6vBzygP/beautiful.jpg",
+      "image": "https://i.ibb.co/4Tw69ZK/istockphoto-1393537665-612x612.jpg",
       "location": "San Diego, CA",
       "projectType": "Commercial",
       "client": "Retail Innovators Inc.",
