@@ -13,13 +13,9 @@ const MeetAndTalk = () => {
                   Meet snd talk width <br></br> our best architecture
                 </h1>
                 <div className="py-5">
-                  <p className="text-xl text-gray-400 py-1">
+                  <p className="text-xl text-gray-400 py-1 text-justify">
                     All our teams are profazssional and competent in
-                  </p>
-                  <p className="text-xl text-gray-400 py-1">
                     their fildes and will help you realize your dream
-                  </p>
-                  <p className="text-xl text-gray-400 py-1">
                     building width the excellent result.
                   </p>
                 </div>
@@ -41,7 +37,7 @@ const MeetAndTalk = () => {
             <div className="">
               <img
                 src="https://i.ibb.co/FsrMxS9/mett.jpg"
-                className="h-[300px] w-full"
+                className="h-[300px] w-full "
               />
             </div>
             <div className="absolute  -right-[70px] top-0">

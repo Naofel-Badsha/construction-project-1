@@ -20,24 +20,14 @@ const OurStory = () => {
               Our Story<br></br> Who we are
             </h1>
             <div className="py-5">
-              <p className="text-xl text-gray-400 py-1">
+              <p className="text-xl text-gray-400 py-1 text-justify">
                 Established in 1992, PT. Wahana Cipta operates as a General
-              </p>
-              <p className="text-xl text-gray-400 py-1">
-                Contracting company with a footprint that we have planted
-              </p>
-              <p className="text-xl text-gray-400 py-1">
-                throughtout Indonesia. Initially, we focused on construction
-                inB;
-              </p>
-              <p className="text-xl text-gray-400 py-1">
-                the field of residential housing devlopment in Jakarta.
-              </p>
-              <p className="text-xl text-gray-400 py-1">
-                As the companny grows, b;noe we are present as a reliable...
+                Contracting company with a footprint that we have planted 
+                throughtout Indonesia. Initially, we focused on construction in
+                the field of residential housing devlopment in Jakarta. As the
+                companny grows, b;noe we are present as a reliable...
               </p>
             </div>
-
             <button className="text-xl text-white bg-sky-900 px-7 py-3 hover:shadow-md hover:shadow-teal-400 rounded-lg">
               See More
             </button>

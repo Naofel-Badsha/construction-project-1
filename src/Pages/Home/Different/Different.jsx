@@ -2,7 +2,7 @@ const Different = () => {
   return (
     <div className="bg-[#fff]">
       <div className="container m-auto py-10">
-        <div className="flex items-center justify-between flex-col md:flex-row lg:flex-row gap-6 py-10">
+        <div className="flex items-center justify-between flex-col md:flex-row lg:flex-row gap-6 py-10 px-6">
           <h1 className="text-2xl md:text-4xl lg:text-4xl text-black">
             Our Excellent <br></br> Services
           </h1>

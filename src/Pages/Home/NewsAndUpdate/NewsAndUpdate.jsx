@@ -1,3 +1,5 @@
+
+
 const NewsAndUpdate = () => {
   return (
     <div className="bg-[#fff]">
@@ -10,16 +12,19 @@ const NewsAndUpdate = () => {
           <div>
             <img src="https://i.ibb.co/LQDhp7w/update-1.jpg" 
             className="h-[350px] w-full"/>
+              <h1 className="text-xl py-4 text-black">New Projects planing</h1>
           </div>
           {/*--------Card-------1--------*/}
           <div>
             <img src="https://i.ibb.co/ggC1fhp/update-1.jpg" 
             className="h-[350px] w-full"/>
+            <h1 className="text-xl py-4 text-black">Finish Projects</h1>
           </div>
           {/*--------Card-------1--------*/}
           <div>
             <img src="https://i.ibb.co/GWyTJny/update-3.webp" 
             className="h-[350px] w-full"/>
+            <h1 className="text-xl py-4 text-black">Workong Projects</h1>
           </div>
         </div>
       </div>
