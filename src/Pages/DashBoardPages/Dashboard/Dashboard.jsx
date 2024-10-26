@@ -1,6 +1,9 @@
 //import DashClientReview from "../../../Components/DashClientReview/DashClientReview";
 
+import HappyClientPie from "../../../Components/Charts/HappyClientPie/HappyClientPie";
+import OrderPendingPie from "../../../Components/Charts/OrderPendingPie/OrderPendingPie";
 import ProjectAreaCharts from "../../../Components/Charts/ProjectAreaCharts/ProjectAreaCharts";
+import ServicesAndExperience from "../../../Components/Charts/ServicesAndExperience/ServicesAndExperience";
 
 const Dashboard = () => {
   return (
@@ -65,12 +68,43 @@ const Dashboard = () => {
       <div className="">
         {/*------------1------------*/}
         <div>
-          <h1 className="text-black text-xl font-bold mb-4">Compleate Projects</h1>
+          <h1 className="text-black text-xl font-bold py-4">
+            Compleate Projects
+          </h1>
           <div className="border-2 border-sky-800 shadow-xl">
             <ProjectAreaCharts></ProjectAreaCharts>
           </div>
         </div>
         {/*------------2------------*/}
+        <div>
+          <h1 className="text-black text-xl font-bold py-4">
+            Services And Experience
+          </h1>
+          <div className="border-2 border-sky-800 shadow-xl">
+            <ServicesAndExperience></ServicesAndExperience>
+          </div>
+        </div>
+        {/*---------3----And----4---------*/}
+        <div className="flex gap-6 flex-col lg:flex-row overflow-x-auto">
+          {/*------------3------------*/}
+          <div className="w-full">
+            <h1 className="text-black text-xl font-bold py-4">
+              Order Pending
+            </h1>
+            <div className="border-2 border-sky-800 shadow-xl">
+              <OrderPendingPie></OrderPendingPie>
+            </div>
+          </div>
+          {/*------------4------------*/}
+          <div className="w-full">
+            <h1 className="text-black text-xl font-bold py-4">
+              Happy Client
+            </h1>
+            <div className="border-2 border-sky-800 shadow-xl">
+              <HappyClientPie></HappyClientPie>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );
