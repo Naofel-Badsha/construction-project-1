@@ -11,7 +11,7 @@ const Dashboard = () => {
       {/*----------User-----------*/}
       <div>
         <h1 className="text-2xl font-bold text-sky-800">Dashboard</h1>
-        <h4 className="text-xl text-slate-500 py-1">
+        <h4 className="text-xl text-slate-900 py-1">
           Hi, Samantha. Wellcome back to Admin!
         </h4>
       </div>

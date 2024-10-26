@@ -1,10 +1,19 @@
+import { useEffect, useState } from "react";
+import { MdDeleteForever } from "react-icons/md";
+
 const ManageUser = () => {
+  const [manageUsers, setManageUsers] = useState([]);
+  useEffect(() => {
+    fetch("/manageUsers.json")
+      .then((res) => res.json())
+      .then((data) => setManageUsers(data));
+  }, []);
   return (
     <div>
       {/*----------User-----------*/}
       <div>
-        <h1 className="text-2xl text-sky-800">Manage User</h1>
-        <h4 className="text-xl text-slate-500 py-1">
+        <h1 className="text-2xl font-bold text-sky-800">Manage User</h1>
+        <h4 className="text-xl text-slate-900 py-1">
           Hi, Samantha. Wellcome back to Manage User!
         </h4>
       </div>
@@ -13,125 +22,49 @@ const ManageUser = () => {
       {/*-----------Manage-----User------Stert--------*/}
       <div className="py-10">
         <div className="overflow-x-auto">
-          <table className=" w-full border-4 border-rose-600 table-xl text-black">
+          <table className="w-full table text-black ">
             <thead>
-              <tr className="border-b-2 border-sky-900">
-                <th className="text-xl text-sky-800">Id</th>
-                <td className="text-xl text-sky-800">Name</td>
-                <td className="text-xl text-sky-800">Job</td>
-                <td className="text-xl text-sky-800">company</td>
-                <td className="text-xl text-sky-800">location</td>
-                <td className="text-xl text-sky-800">Last Login</td>
-                <td className="text-xl text-sky-800">Favorite Color</td>
-                <th></th>
+              <tr className="border-b-2 border-sky-900 ">
+               <th className="text-xl font-bold text-black">Id</th>
+                <th className="text-xl font-bold text-black">Imges</th>
+                <td className="text-xl font-bold text-black">Name</td>
+                <td className="text-xl font-bold text-black">Email</td>
+                <td className="text-xl font-bold text-black">Location</td>
+                <td className="text-xl font-bold text-black">Reating </td>
+                <td className="text-xl font-bold text-black">Last Login</td>
+                <td className="text-xl font-bold text-black">Contact</td>
+                <td className="text-xl font-bold text-black">Action</td>
               </tr>
             </thead>
 
             <tbody>
-              <tr className="border-b-2 border-sky-900">
-                <th>1</th>
-                <td>Cy Ganderton</td>
-                <td>Quality Control Specialist</td>
-                <td>Littel, Schaden and Vandervort</td>
-                <td>Canada</td>
-                <td>12/16/2020</td>
-                <td>Blue</td>
-                <th>1</th>
-              </tr>
-              <tr className="border-b-2 border-sky-900">
-                <th>2</th>
-                <td>Hart Hagerty</td>
-                <td>Desktop Support Technician</td>
-                <td>Zemlak, Daniel and Leannon</td>
-                <td>United States</td>
-                <td>12/5/2020</td>
-                <td>Purple</td>
-                <th>2</th>
-              </tr>
-              <tr className="border-b-2 border-sky-900">
-                <th>3</th>
-                <td>Brice Swyre</td>
-                <td>Tax Accountant</td>
-                <td>Carroll Group</td>
-                <td>China</td>
-                <td>8/15/2020</td>
-                <td>Red</td>
-                <th>3</th>
-              </tr>
-              <tr className="border-b-2 border-sky-900">
-                <th>4</th>
-                <td>Marjy Ferencz</td>
-                <td>Office Assistant I</td>
-                <td>Rowe-Schoen</td>
-                <td>Russia</td>
-                <td>3/25/2021</td>
-                <td>Crimson</td>
-                <th>4</th>
-              </tr>
-              <tr className="border-b-2 border-sky-900">
-                <th>5</th>
-                <td>Yancy Tear</td>
-                <td>Community Outreach Specialist</td>
-                <td>Wyman-Ledner</td>
-                <td>Brazil</td>
-                <td>5/22/2020</td>
-                <td>Indigo</td>
-                <th>5</th>
-              </tr>
-              <tr className="border-b-2 border-sky-900">
-                <th>6</th>
-                <td>Irma Vasilik</td>
-                <td>Editor</td>
-                <td>Wiza, Bins and Emard</td>
-                <td>Venezuela</td>
-                <td>12/8/2020</td>
-                <td>Purple</td>
-                <th>6</th>
-              </tr>
-              <tr className="border-b-2 border-sky-900">
-                <th>7</th>
-                <td>Meghann Durtnal</td>
-                <td>Staff Accountant IV</td>
-                <td>Schuster-Schimmel</td>
-                <td>Philippines</td>
-                <td>2/17/2021</td>
-                <td>Yellow</td>
-                <th>7</th>
-              </tr>
-              <tr className="border-b-2 border-sky-900">
-                <th>8</th>
-                <td>Sammy Seston</td>
-                <td>Accountant I</td>
-                <td>OHara, Welch and Keebler</td>
-                <td>Indonesia</td>
-                <td>5/23/2020</td>
-                <td>Crimson</td>
-                <th>8</th>
-              </tr>
-              <tr className="border-b-2 border-sky-900">
-                <th>9</th>
-                <td>Lesya Tinham</td>
-                <td>Safety Technician IV</td>
-                <td>Turner-Kuhlman</td>
-                <td>Philippines</td>
-                <td>2/21/2021</td>
-                <td>Maroon</td>
-                <th>9</th>
-              </tr>
+              {manageUsers.map((item) => (
+                <tr key={item.id} className="border-b-2 border-sky-900 ">
+                  <th>{item.id}</th>
+                  <th>
+                    <div className="">
+                      <div className="rounded-full h-w-14 w-14 ">
+                        <img
+                          src={item.image}
+                          className="rounded-full h-12 w-12 object-cover"
+                        />
+                      </div>
+                    </div>
+                  </th>
+                  <td>{item.name}</td>
+                  <td>{item.email}</td>
+                  <td>{item.location}</td>
+                  <td>{item.rating}</td>
+                  <td>{item.lastLogin}</td>
+                  <td>{item.phoneNumber}</td>
+                  <td>
+                    <button className="btn bg-red-600 border-0">
+                    <MdDeleteForever  className="text-2xl text-white"/>
+                    </button>
+                  </td>
+                </tr>
+              ))}
             </tbody>
-
-            <tfoot className="border-t-2 border-sky-900">
-              <tr>
-                <th className="text-xl text-sky-800">Id</th>
-                <td className="text-xl text-sky-800">Name</td>
-                <td className="text-xl text-sky-800">Job</td>
-                <td className="text-xl text-sky-800">company</td>
-                <td className="text-xl text-sky-800">location</td>
-                <td className="text-xl text-sky-800">Last Login</td>
-                <td className="text-xl text-sky-800">Favorite Color</td>
-                <th className="text-xl text-sky-800"></th>
-              </tr>
-            </tfoot>
           </table>
         </div>
       </div>
