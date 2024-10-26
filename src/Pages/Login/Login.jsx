@@ -9,7 +9,7 @@ const Login = () => {
   const [showPassword, setShowPassword] = useState(false);
 
   //-----Navigate----By---Default----Homepage-----
-  const navigate = useNavigate()
+  const navigate = useNavigate();
 
   const handelSumitLogin = (e) => {
     e.preventDefault();
@@ -42,6 +42,8 @@ const Login = () => {
     singInWidthGoogle()
       .then((result) => {
         console.log(result.user);
+        //-----User----Login fater Default home page-----
+        navigate("/");
       })
       .catch((error) => {
         console.log(error.message);
