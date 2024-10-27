@@ -26,21 +26,6 @@ const Services = () => {
 
       <div className="container m-auto py-6">
         <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
-          {/*------Services------1------*/}
-          {/* <div className="border border-sky-900 p-6 rounded-lg">
-            <div className="flex items-center justify-center bg-sky-800 w-[55px] h-[55px] m-auto rounded-full ">
-              <i className="fa-solid fa-house  text-white text-3xl"></i>
-            </div>
-            <h2 className="text-center text-2xl font-bold text-sky-800 py-3">
-              General Contracting
-            </h2>
-            <li className="text-xl text-black">Project Management</li>
-            <li className="text-xl text-black">
-              Site Preparation & Excavation
-            </li>
-            <li className="text-xl text-black">Foundation Work</li>
-          </div> */}
-
           {
             services.map(service => <ServicesCard key={service.id}
             service={service}></ServicesCard>)

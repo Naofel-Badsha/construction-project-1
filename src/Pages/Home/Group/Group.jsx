@@ -1,24 +1,21 @@
-import BrandGroup1 from "../../../assets/b-logo-1.png";
-import BrandGroup2 from "../../../assets/b-logo-2.jfif";
-import BrandGroup3 from "../../../assets/b-logo-3.png";
-import BrandGroup4 from "../../../assets/b-logo-4.jfif";
-import BrandGroup5 from "../../../assets/b-logo-5.png";
+import { useEffect } from "react";
+import { useState } from "react";
 
 const Group = () => {
+  const [brandGroups, setBrandGroups] = useState([]);
+  useEffect(() => {
+    fetch("/brandGroups.json")
+      .then((res) => res.json())
+      .then((data) => setBrandGroups(data));
+  }, []);
   return (
-    <div className="bg-[#fff]"> 
+    <div className="bg-[#fff]">
       <div className="container m-auto ">
-        <div className="flex items-center justify-around gap-6 flex-wrap py-16">
+        <div className="flex items-center justify-around gap-6 py-16 overflow-x-auto">
           {/*------Brand-------logo-----1----*/}
-          <img src={BrandGroup1} className="rounded-lg" />
-          {/*------Brand-------logo-----2----*/}
-          <img src={BrandGroup2} className="rounded-lg" />
-          {/*------Brand-------logo-----3----*/}
-          <img src={BrandGroup3} className="rounded-lg" />
-          {/*------Brand-------logo-----4----*/}
-          <img src={BrandGroup4} className="rounded-lg" />
-          {/*------Brand-------logo-----5----*/}
-          <img src={BrandGroup5} className="rounded-lg" />
+          {brandGroups.map((item) => (
+            <img key={item.id} src={item.image} className="rounded-lg w-44 h-44 border-2 border-sky-800" />
+          ))}
         </div>
       </div>
     </div>

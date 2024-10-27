@@ -10,7 +10,7 @@ const ServicesCard = ({ service }) => {
   } = service;
   return (
     <div>
-      <div className="border border-sky-900 p-6 rounded-lg h-full">
+      <div className="border border-sky-800 p-6 rounded-lg h-full">
         <div className="flex items-center justify-center bg-sky-800 w-[55px] h-[55px] m-auto rounded-full ">
           <i className="fa-solid fa-house  text-white text-3xl"></i>
         </div>

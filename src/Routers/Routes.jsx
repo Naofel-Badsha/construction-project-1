@@ -20,8 +20,7 @@ import TechnicianList from "../Pages/DashBoardPages/TechnicianList/TechnicianLis
 import InventoryMnagement from "../Pages/DashBoardPages/InventoryMnagement/InventoryMnagement";
 import ClientReview from "../Pages/DashBoardPages/ClientReview/ClientReview";
 import PortfolioDetails from "../Pages/Portfolio/PortfolioDetails";
-import Profile from './../Pages/DashBoardPages/Profile/Profile';
-
+import Profile from "./../Pages/DashBoardPages/Profile/Profile";
 
 const routes = createBrowserRouter([
   {
@@ -38,28 +37,23 @@ const routes = createBrowserRouter([
       },
       {
         path: "/services",
-        element: (
-          <PrivateRoute>
-            <Services></Services>
-          </PrivateRoute>
-        ),
+        element: <PrivateRoute><Services></Services></PrivateRoute>
       },
       {
         path: "/team",
-        element: (
-          <PrivateRoute>
-            <Teams></Teams>
-          </PrivateRoute>
-        ),
+        element: 
+          <PrivateRoute><Teams></Teams></PrivateRoute>  
       },
       {
         path: "/portfolio",
-        element: <PrivateRoute><Portfolio></Portfolio></PrivateRoute>,
+        element: 
+          <PrivateRoute><Portfolio></Portfolio></PrivateRoute>
       },
       {
         path: "/portfolioDetails/:id",
-        element: <PrivateRoute><PortfolioDetails></PortfolioDetails></PrivateRoute>,
-        loader: () => fetch('/portfolios.json') 
+        element: 
+        <PrivateRoute><PortfolioDetails></PortfolioDetails></PrivateRoute>,
+        loader: () => fetch("/portfolios.json"),
       },
       {
         path: "/contact",
