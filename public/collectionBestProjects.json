@@ -1,0 +1,102 @@
+[
+    {
+      "id": 1,
+      "image": "https://i.ibb.co/7tCg0r7/p-1.jpg",
+      "projectName": "Green Valley Residential Towers",
+      "location": "Downtown City Center",
+      "startDate": "2022-01-15",
+      "endDate": "2024-06-30",
+      "exitTotalMonths": 30,
+      "projectDetails": "Green Valley Residential Towers is a comprehensive eco-friendly housing project designed for sustainable urban living. Situated in Downtown City Center, this development consists of four high-rise towers featuring energy-efficient apartments. Each apartment is equipped with smart home technology, allowing residents to manage energy usage and reduce waste. The project includes rooftop gardens, solar panels, and rainwater harvesting systems to further reduce its environmental footprint. Green Valley is designed with ample green spaces, walking trails, and a central park that encourages outdoor activities and promotes well-being. Residents will enjoy amenities such as a fitness center, community lounge, and dedicated co-working spaces. The project also uses recycled materials in construction to minimize impact on the environment. With a construction period spanning 30 months, Green Valley Residential Towers will offer a modern living experience focused on sustainability and community engagement, creating a lifestyle that prioritizes both comfort and environmental responsibility."
+    },
+    {
+      "id": 2,
+      "image": "https://i.ibb.co/qBjJw60/p-2.jpg",
+      "projectName": "Oceanview Office Complex",
+      "location": "Coastal Business District",
+      "startDate": "2021-10-01",
+      "endDate": "2024-04-30",
+      "exitTotalMonths": 31,
+      "projectDetails": "Oceanview Office Complex is a luxurious commercial building located in the Coastal Business District. Designed with modern architecture and sustainability at its core, the complex comprises three towers offering panoramic ocean views. The complex features open office spaces with flexible layouts and state-of-the-art technology, including energy-efficient glass and solar power systems. Lower levels include retail shops, dining options, and a fitness center for convenience. Additional amenities like a rooftop café and business lounge provide ideal work-life balance for tenants. With a construction span of 31 months, Oceanview aims to offer an inspiring workspace for businesses while maintaining a strong commitment to environmental responsibility."
+    },
+    {
+      "id": 3,
+      "image": "https://i.ibb.co/0CswxxL/p-3.jpg",
+      "projectName": "Riverside Eco Homes",
+      "location": "Riverside Suburb",
+      "startDate": "2022-03-20",
+      "endDate": "2024-09-30",
+      "exitTotalMonths": 30,
+      "projectDetails": "Riverside Eco Homes is a sustainable housing community located in Riverside Suburb. This eco-friendly project consists of 100 homes, each built with sustainable materials and equipped with energy-efficient systems like solar panels and rainwater harvesting. The homes are designed to blend with the natural surroundings, creating a harmonious environment that promotes ecological preservation. Community amenities include a communal garden, playground, and walking trails. With a total construction period of 30 months, Riverside Eco Homes provides a peaceful yet modern living option for environmentally conscious families seeking a community-oriented lifestyle."
+    },
+    {
+      "id": 4,
+      "image": "https://i.ibb.co/rQD4909/p-4.webp",
+      "projectName": "Skyline Business Park",
+      "location": "Central Business District",
+      "startDate": "2021-06-10",
+      "endDate": "2024-01-31",
+      "exitTotalMonths": 31,
+      "projectDetails": "Skyline Business Park is a modern commercial complex located in the Central Business District. This project comprises three towers with interconnecting sky bridges and advanced smart technology. Each office space is designed to maximize natural light and reduce energy consumption, making it a prime choice for businesses focused on sustainability. Amenities include co-working spaces, conference rooms, a fitness center, and a rooftop terrace. The project aims to provide a collaborative and flexible working environment over a 31-month construction timeline. Skyline Business Park is ideal for companies seeking a modern workspace in a prestigious, eco-friendly location."
+    },
+    {
+      "id": 5,
+      "image": "https://i.ibb.co/3vXGhfh/josh6.webp",
+      "projectName": "Lakeside Villas",
+      "location": "Lakefront Community",
+      "startDate": "2022-05-01",
+      "endDate": "2024-11-30",
+      "exitTotalMonths": 30,
+      "projectDetails": "Lakeside Villas is a luxurious residential project located in the serene Lakefront Community. It features 50 custom-built villas with lake views, each villa boasting eco-friendly technology such as solar panels and water-saving systems. Residents enjoy access to a private clubhouse, gym, swimming pool, and landscaped gardens. The villas are designed to promote relaxation and privacy, with easy access to outdoor activities like jogging, fishing, and kayaking. Spanning a construction period of 30 months, Lakeside Villas combines high-end luxury with sustainability, making it an excellent choice for eco-conscious buyers."
+    },
+    {
+      "id": 6,
+      "image": "https://i.ibb.co/NFDQr0P/p-6.jpg",
+      "projectName": "Metropolitan Trade Center",
+      "location": "Near International Airport",
+      "startDate": "2021-11-15",
+      "endDate": "2024-06-15",
+      "exitTotalMonths": 31,
+      "projectDetails": "Metropolitan Trade Center is a commercial hub located near the international airport, designed to facilitate global business operations. The complex includes office towers, exhibition halls, and logistics facilities, all equipped with advanced security and energy-efficient systems. The layout ensures operational efficiency for multinational corporations, offering quick access to transportation routes. Amenities include a business center, dining areas, and conference spaces for corporate events. Over a 31-month period, the Metropolitan Trade Center aims to become a prominent trade and business center that fosters international collaboration and economic growth."
+    },
+    {
+      "id": 7,
+      "image": "https://i.ibb.co/BjwWmdM/p-7.jpg",
+      "projectName": "Canyon Heights Apartments",
+      "location": "Mountain Canyon",
+      "startDate": "2022-02-01",
+      "endDate": "2024-08-31",
+      "exitTotalMonths": 30,
+      "projectDetails": "Canyon Heights Apartments is a residential project located in a mountain canyon, designed to provide a peaceful retreat from city life. This project includes high-rise buildings with spacious apartments featuring open layouts, maximizing natural light and ventilation. Amenities include a fitness center, swimming pool, and landscaped community gardens. Each building integrates eco-friendly technology, like solar power and rainwater harvesting, to reduce environmental impact. With a 30-month construction timeline, Canyon Heights Apartments offers a sustainable, scenic living option for those looking to balance modern conveniences with nature."
+    },
+    {
+      "id": 8,
+      "image": "https://i.ibb.co/wKYtTV3/p-8.jpg",
+      "projectName": "City Center Plaza",
+      "location": "Downtown",
+      "startDate": "2021-08-01",
+      "endDate": "2024-03-31",
+      "exitTotalMonths": 32,
+      "projectDetails": "City Center Plaza is a mixed-use development in downtown, offering retail, office, and residential spaces in one complex. The design promotes a community-oriented atmosphere with open walkways, rooftop gardens, and public art installations. Retail spaces on lower levels include high-end boutiques and restaurants, while upper floors house luxury apartments and flexible office spaces. Over 32 months, the project focuses on creating a vibrant, eco-friendly urban center that promotes social interaction and sustainable practices, making it an attractive option for urban professionals and families alike."
+    },
+    {
+      "id": 9,
+      "image": "https://i.ibb.co/Nt9bmqK/p-9.jpg",
+      "projectName": "Hillside Garden Estate",
+      "location": "Hillside Suburb",
+      "startDate": "2022-04-15",
+      "endDate": "2024-10-31",
+      "exitTotalMonths": 30,
+      "projectDetails": "Hillside Garden Estate is a residential community set on a scenic hillside, emphasizing sustainable living. It includes townhouses and villas, each with green roofs, solar power, and private gardens. Community amenities include walking trails, a clubhouse, and an organic vegetable garden. With a focus on eco-friendly construction and community engagement, this 30-month project is tailored for families and individuals who value a balance between luxury and environmental responsibility. Hillside Garden Estate offers a serene setting for residents to enjoy a connection with nature."
+    },
+    {
+      "id": 10,
+      "image": "https://i.ibb.co/fdT7BJY/DGlMn.jpg",
+      "projectName": "Harbor Point Industrial Park",
+      "location": "Near Seaport",
+      "startDate": "2021-09-01",
+      "endDate": "2024-05-31",
+      "exitTotalMonths": 33,
+      "projectDetails": "Harbor Point Industrial Park is an industrial complex designed to support manufacturing and logistics operations, strategically located near a major seaport. It includes warehouses, distribution centers, and administrative offices, all optimized for high traffic and heavy equipment use. Over a 33-month construction period, Harbor Point has integrated modern safety features and energy-efficient systems, creating a safe and sustainable industrial space. The park is ideal for companies."
+    }
+]

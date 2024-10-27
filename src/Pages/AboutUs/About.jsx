@@ -2,7 +2,16 @@ import { Link } from "react-router-dom";
 
 const About = () => {
   return (
-    <div className="">
+    <div>
+      {/*--------Section------banner--------*/}
+      <div className="bg-sky-800 w-full h-[300px] flex items-center justify-center">
+        <div className="flex items-center justify-center">
+          <h2 className="text-2xl md:text-4xl lg:text-5xl text-white">
+            Our About
+          </h2>
+        </div>
+      </div>
+      {/*----------Details---------*/}
       <div className="py-10 container m-auto">
         <div className="flex justify-between gap-12 flex-col lg:flex-row-reverse">
           {/*-----------Image--------Start---------*/}

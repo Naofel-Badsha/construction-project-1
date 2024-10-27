@@ -4,11 +4,12 @@ import Home from "../Pages/Home/Home/Home";
 import About from "../Pages/AboutUs/About";
 import Services from "../Pages/Services/Services";
 import Teams from "../Pages/FindATeam/Teams";
-import Articles from "../Pages/Articles/Articles";
 import Portfolio from "../Pages/Portfolio/Portfolio";
 import Contact from "../Pages/ContactUs/Contact";
 import Login from "../Pages/Login/Login";
 import Registation from "../Pages/Registation/Registation";
+import ProjectCullectionDetails from "../Pages/Home/ProjectCullection/ProjectCullectionDetails";
+
 import PrivateRoute from "./PrivateRoute";
 import DashboardLayout from "../Layouts/DashboardLayout";
 import Dashboard from "../Pages/DashBoardPages/Dashboard/Dashboard";
@@ -21,6 +22,7 @@ import InventoryMnagement from "../Pages/DashBoardPages/InventoryMnagement/Inven
 import ClientReview from "../Pages/DashBoardPages/ClientReview/ClientReview";
 import PortfolioDetails from "../Pages/Portfolio/PortfolioDetails";
 import Profile from "./../Pages/DashBoardPages/Profile/Profile";
+
 
 const routes = createBrowserRouter([
   {
@@ -66,6 +68,12 @@ const routes = createBrowserRouter([
       {
         path: "/registation",
         element: <Registation></Registation>,
+      },
+      {
+        path: "/collectionBestProjectsDetails/:id",
+        element: 
+        <PrivateRoute><ProjectCullectionDetails></ProjectCullectionDetails></PrivateRoute>,
+        loader: () => fetch("/collectionBestProjects.json"),
       },
       {
         path: "/dashboard",

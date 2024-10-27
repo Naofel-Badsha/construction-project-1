@@ -3,7 +3,15 @@ import { Link } from "react-router-dom";
 const Contact = () => {
   return (
     <div>
-      <div className="py-10 container m-auto">
+      {/*--------Section------banner--------*/}
+      <div className="bg-sky-800 w-full h-[300px] flex items-center justify-center">
+        <div className="flex items-center justify-center">
+          <h2 className="text-2xl md:text-4xl lg:text-5xl text-white">
+            Our Contact
+          </h2>
+        </div>
+      </div>
+      <div className="container m-auto py-10">
         {/*-----------Part------1--------Start-------*/}
         <div className="flex  justify-between gap-12 flex-col lg:flex-row">
           {/*-----------Image--------Start---------*/}
@@ -18,42 +26,44 @@ const Contact = () => {
           {/*-----------Text----------Start---------*/}
           <div className="flex-1">
             {/*-------------Heading-----------*/}
-            <h1 className="px-6 text-2xl md:text-4xl lg:text-5xl text-sky-800 py-10">
+            <h1 className="px-6 text-2xl md:text-4xl lg:text-5xl font-bold text-sky-800 py-10">
               Contact Information
             </h1>
-            
+
             <div className="px-6">
-              <h2 className="text-xl md:text-2xl lg:text-2xl  text-black py-2 ">
+              <h2 className="text-xl md:text-2xl lg:text-2xl font-medium text-black py-2 ">
                 Company Name:{" "}
-                <small className="md:text-xl lg:text-xl text-slate-400 ml-1 ">
+                <small className="md:text-xl lg:text-xl text-slate-700 font-normal ml-1 ">
                   Real Estate
                 </small>
               </h2>
-              <h2 className="text-xl md:text-2xl lg:text-2xl  text-black py-2 ">
+              <h2 className="text-xl md:text-2xl lg:text-2xl font-medium text-black py-2 ">
                 Address:{" "}
-                <small className="md:text-xl lg:text-xl text-slate-400 ml-1">
+                <small className="md:text-xl lg:text-xl text-slate-700 font-normal ml-1">
                   Dhaka, Gulistan, Twintower-40/75
                 </small>
               </h2>
-              <h2 className="text-xl md:text-2xl lg:text-2xl  text-black py-2 ">
+              <h2 className="text-xl md:text-2xl lg:text-2xl font-medium text-black py-2 ">
                 Phone Number:{" "}
-                <small className="md:text-xl lg:text-xl text-slate-400 ml-15">
+                <small className="md:text-xl lg:text-xl text-slate-700 font-normal ml-1">
                   01733457698
                 </small>
               </h2>
-              <h2 className="text-xl md:text-2xl lg:text-2xl  text-black py-2 ">
+              <h2 className="text-xl md:text-2xl lg:text-2xl font-medium text-black py-2 ">
                 Email Address:{" "}
-                <small className="md:text-xl lg:text-xl text-slate-400 ml-1">
+                <small className="md:text-xl lg:text-xl text-slate-700 font-normal ml-1">
                   realstate@gmail.com
                 </small>
               </h2>
-              <h2 className="text-xl md:text-2xl lg:text-2xl  text-black py-2 ">
+              <h2 className="text-xl md:text-2xl lg:text-2xl font-medium text-black py-2 ">
                 Website:{" "}
-                <small className="md:text-xl lg:text-xl text-slate-400 ml-1">.........</small>
+                <small className="md:text-xl lg:text-xl text-slate-700 font-normal ml-1">
+                  .........
+                </small>
               </h2>
-              <h2 className="text-xl md:text-2xl lg:text-2xl  text-black py-2">
+              <h2 className="text-xl md:text-2xl lg:text-2xl font-medium text-black py-2">
                 Business Hours:{" "}
-                <small className="md:text-xl lg:text-xl text-slate-400 ml-1">
+                <small className="md:text-xl lg:text-xl text-slate-700 font-normal ml-1">
                   [Days and Hours of Operation]
                 </small>
               </h2>
@@ -76,7 +86,7 @@ const Contact = () => {
 
           {/*-----------Text----------Start---------*/}
           <div className="flex-1 w-full">
-            <h1 className="px-6 text-2xl md:text-4xl lg:text-5xl text-sky-800 py-10">
+            <h1 className="px-6 text-2xl md:text-4xl lg:text-5xl font-bold text-sky-800 py-10">
               Contact Form
             </h1>
             <div>
@@ -166,14 +176,11 @@ const Contact = () => {
         </div>
         {/*-----------Part------2--------End-------*/}
 
-
         {/*-----------Part------3--------Start-------*/}
         <div className="flex gap-6 px-6 justify-between flex-col md:flex-row lg:flex-row py-10">
           {/*--------1---------*/}
           <div>
-            <h2 className="text-2xl text-sky-800 py-4">
-              Social Media Links
-            </h2>
+            <h2 className="text-2xl text-sky-800 py-4">Social Media Links</h2>
             <div className="flex gap-6">
               <Link>
                 <i className="fa-brands fa-facebook text-3xl text-black hover:text-sky-600 hover:-translate-y-2 duration-75"></i>
@@ -191,9 +198,7 @@ const Contact = () => {
           </div>
           {/*--------2---------*/}
           <div>
-            <h2 className="text-2xl text-sky-800 py-4">
-              Call to Action
-            </h2>
+            <h2 className="text-2xl text-sky-800 py-4">Call to Action</h2>
             <div className="flex gap-6 flex-col">
               <Link>
                 <i className="fa-solid fa-phone text-black text-2xl"></i>{" "}
@@ -211,9 +216,7 @@ const Contact = () => {
           </div>
           {/*--------3---------*/}
           <div>
-            <h2 className="text-2xl text-sky-800 py-4">
-              Office Locations
-            </h2>
+            <h2 className="text-2xl text-sky-800 py-4">Office Locations</h2>
             <div>
               <p className="md:text-xl text-black">
                 Dhaka, Gulistan, Twintower-40/75
