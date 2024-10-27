@@ -1,4 +1,15 @@
+import { useEffect } from "react";
+import { useState } from "react";
+import { MdDeleteForever } from "react-icons/md";
+
 const InventoryMnagement = () => {
+  const [inventories, setInventories] = useState([]);
+  useEffect(() => {
+    fetch("/inventoryMenagement.json")
+      .then((res) => res.json())
+      .then((data) => setInventories(data));
+  }, []);
+  console.log(inventories);
   return (
     <div>
       {/*----------User-----------*/}
@@ -12,40 +23,45 @@ const InventoryMnagement = () => {
       {/*-----------Inventory Management---------Start-------*/}
       <div className="py-10">
         <div className="overflow-x-auto">
-          <table className=" w-full table-xl text-black">
+          <table className=" w-full table text-black">
             <thead>
               <tr className="border-b-2 border-sky-900">
-                <th className="text-xl text-sky-800">Edit</th>
-                <td className="text-xl text-sky-800">Order Id</td>
-                <td className="text-xl text-sky-800">Technician</td>
-                <td className="text-xl text-sky-800">company</td>
-                <td className="text-xl text-sky-800">location</td>
-                <td className="text-xl text-sky-800">Date</td>
-                <td className="text-xl text-sky-800"> Treak</td>
+                <td className="text-xl font-bold text-black">Order Id</td>
+                <td className="text-xl font-bold text-black">Technician</td>
+                <td className="text-xl font-bold text-black">Engineers</td>
+                <td className="text-xl font-bold text-black">Company</td>
+                <td className="text-xl font-bold text-black">Location</td>
+                <td className="text-xl font-bold text-black">Start Date</td>
+                <td className="text-xl font-bold text-black">End Date</td>
+                <td className="text-xl font-bold text-black">Exit Month</td>
+                <td className="text-xl font-bold text-black"> Treak</td>
+                <th className="text-xl font-bold text-black">Action</th>
               </tr>
             </thead>
 
             <tbody>
-              <tr className="border-b-2 border-sky-900 ">
-                <th>
-                  <label>
-                    <input type="checkbox" className="checkbox" />
-                  </label>
-                </th>
-                <td>Cy Ganderton</td>
-                <td>Quality Control Specialist</td>
-                <td>Littel, Schaden and Vandervort</td>
-                <td>Canada</td>
-                <td>12/16/2020</td>
-                <td>
-                  <button className=" bg-sky-800 text-white px-2 py-1 rounded-lg cursor-pointer">
-                    Completed
-                  </button>
-                </td>
-                <th>
-                  <i className="fa-solid fa-trash-arrow-up text-3xl text-black cursor-pointer"></i>
-                </th>
-              </tr>
+              {inventories.map((item) => (
+                <tr key={item.id} className="border-b-2 border-sky-900 ">
+                  <th>{item.orderId}</th>
+                  <td>{item.technician}</td>
+                  <td>{item.engineers}</td>
+                  <td>{item.company}</td>
+                  <td>{item.location}</td>
+                  <td>{item.startDate}</td>
+                  <td>{item.endDate}</td>
+                  <td>{item.exitTotalMonth} Months</td>
+                  <td>
+                    <button className="btn bg-sky-800 text-white border-0">
+                      {item.track}
+                    </button>
+                  </td>
+                  <td>
+                    <button className="btn bg-red-600 border-0">
+                    <MdDeleteForever  className="text-2xl text-white"/>
+                    </button>
+                  </td>
+                </tr>
+              ))}
             </tbody>
           </table>
         </div>

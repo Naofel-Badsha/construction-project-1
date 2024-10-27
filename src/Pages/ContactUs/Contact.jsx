@@ -80,68 +80,68 @@ const Contact = () => {
               Contact Form
             </h1>
             <div>
-              <div className="card bg-slate-800 ">
+              <div className="card bg-[#8b9db5]">
                 <form className="card-body">
                   {/*------From-----Input------1-------*/}
                   <div className="form-control">
                     <label className="label">
-                      <span className="label-text md:text-xl lg:text-xl text-white">
+                      <span className="label-text md:text-xl lg:text-xl text-black font-bold">
                         Name
                       </span>
                     </label>
                     <input
                       type="text"
                       placeholder="Enter Your Name"
-                      className="input input-bordered w-full"
+                      className="input input-bordered w-full bg-white text-black"
                       required
                     />
                   </div>
                   {/*------From-----Input------2-------*/}
                   <div className="form-control">
                     <label className="label">
-                      <span className="label-text md:text-xl lg:text-xl text-white">
+                      <span className="label-text md:text-xl lg:text-xl text-black font-bold">
                         Email
                       </span>
                     </label>
                     <input
                       type="Email"
                       placeholder="Enter your Email"
-                      className="input input-bordered"
+                      className="input input-bordered bg-white text-black"
                       required
                     />
                   </div>
                   {/*------From-----Input------3-------*/}
                   <div className="form-control">
                     <label className="label">
-                      <span className="label-text md:text-xl lg:text-xl text-white">
+                      <span className="label-text md:text-xl lg:text-xl text-black font-bold">
                         Phone
                       </span>
                     </label>
                     <input
                       type="number"
                       placeholder="Enter your Phone"
-                      className="input input-bordered"
+                      className="input input-bordered bg-white text-black"
                       required
                     />
                   </div>
                   {/*------From-----Input------4-------*/}
                   <div className="form-control">
                     <label className="label">
-                      <span className="label-text md:text-xl lg:text-xl text-white">
+                      <span className="label-text md:text-xl lg:text-xl text-black font-bold">
                         Subject
                       </span>
                     </label>
                     <input
                       type="text"
                       placeholder="Enter your Subject"
-                      className="input input-bordered w-full"
+                      className="input input-bordered w-full bg-white text-black"
                       required
                     />
                   </div>
                   {/*------From------Textarea-----5-------*/}
                   <div className="form-control">
                     <label className="label">
-                      <span className="label-text md:text-xl lg:text-xl text-white">
+                      <span className="label-text md:text-xl lg:text-xl text-black font-bold">
                         Messages
                       </span>
                     </label>
@@ -149,7 +149,7 @@ const Contact = () => {
                       name=""
                       id=""
                       placeholder="Enter Your Message"
-                      className="w-full h-[100px] p-4 rounded-lg outline-none border-2 mt-4"
+                      className="w-full h-[100px] p-4 bg-white text-black rounded-lg outline-none border-2 mt-4"
                       required
                     ></textarea>
                   </div>

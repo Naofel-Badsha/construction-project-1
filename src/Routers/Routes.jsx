@@ -20,6 +20,7 @@ import TechnicianList from "../Pages/DashBoardPages/TechnicianList/TechnicianLis
 import InventoryMnagement from "../Pages/DashBoardPages/InventoryMnagement/InventoryMnagement";
 import ClientReview from "../Pages/DashBoardPages/ClientReview/ClientReview";
 import PortfolioDetails from "../Pages/Portfolio/PortfolioDetails";
+import Profile from './../Pages/DashBoardPages/Profile/Profile';
 
 
 const routes = createBrowserRouter([
@@ -103,6 +104,10 @@ const routes = createBrowserRouter([
           {
             path: "/dashboard/specalClient",
             element: <SpecalClient></SpecalClient>,
+          },
+          {
+            path: "/dashboard/profile",
+            element: <Profile></Profile>,
           },
         ],
       },

@@ -49,8 +49,7 @@ const Sidebar = () => {
 
       {/*-------Sidebar-------*/}
       <div
-      // bg-gray-100
-        className={`z-20 md:fixed flex flex-col justify-between overflow-x-hidden bg-slate-950 w-64 space-y-6 px-2 py-4 absolute inset-y-0 left-0 transform ${
+        className={`z-20 md:fixed flex flex-col justify-between overflow-x-hidden bg-gray-100 w-64 space-y-6 px-2 py-4 absolute inset-y-0 left-0 transform ${
           isActive && "-translate-x-full"
         }  md:translate-x-0  transition duration-200 ease-in-out`}
       >
@@ -73,7 +72,7 @@ const Sidebar = () => {
           <div className="flex flex-col justify-between flex-1 mt-6">
             {/* Conditional toggle button here.. */}
 
-            {/*  Menu Items */}
+            {/*---------Menu---------Items---------*/}
             <nav>
               {/*----------Dashboard----------*/}
               <NavLink
