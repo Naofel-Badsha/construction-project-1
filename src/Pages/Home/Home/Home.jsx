@@ -7,6 +7,7 @@ import MeetAndTalk from "../MeetAndTalk/MeetAndTalk";
 import NewsAndUpdate from "../NewsAndUpdate/NewsAndUpdate";
 import OurStory from "../OurStory/OurStory";
 import ProjectCullection from "../ProjectCullection/ProjectCullection";
+import Testimonials from "../Testimonials/Testimonials";
 
 
 const Home = () => {
@@ -18,8 +19,9 @@ const Home = () => {
             <Different></Different>
             <MeetAndTalk></MeetAndTalk>
             <OurStory></OurStory>
-            <NewsAndUpdate></NewsAndUpdate>
             <ProjectCullection></ProjectCullection>
+            <NewsAndUpdate></NewsAndUpdate>
+            <Testimonials></Testimonials>
         </div>
     );
 };
