@@ -3,7 +3,7 @@ import { Link, useNavigate } from "react-router-dom";
 import { AuthContext } from "../../Provider/AuthProvider";
 
 const Registation = () => {
-  const { createUser } = useContext(AuthContext);
+  const { createUser, singInWidthGoogle } = useContext(AuthContext);
   const [registerError, setRegisterError] = useState("");
   const [success, setSuccess] = useState("");
   const [showPassword, setShowPassword] = useState(false);
@@ -52,6 +52,19 @@ const Registation = () => {
         console.log(error.message);
       });
   };
+
+  //-----------SingInWithGoogle-------
+  const handleGoogleSingIn = () => {
+    singInWidthGoogle()
+      .then((result) => {
+        console.log(result.user);
+        //-----User----Login fater Default home page-----
+        navigate("/");
+      })
+      .catch((error) => {
+        console.log(error.message);
+      });
+  };
   return (
     <div className="">
       <div className="container m-auto">
@@ -60,51 +73,57 @@ const Registation = () => {
           <div className="w-full">
             <img
               src="https://i.ibb.co/Y2TF7Rc/reg-1.webp"
-              className="w-full rounded-lg"
+              className="w-full h-[600px] object-cover rounded-lg border-2"
             />
           </div>
           {/*------------Stape--------1--------*/}
           <div className="w-full">
-            <div className="card bg-base-100 w-full ">
+            <div className="card bg-[#8b9db5] w-full ">
               <form onSubmit={handelSumitRegistation} className="card-body">
                 <div className="form-control">
                   <label className="label">
-                    <span className="label-text text-xl">Name</span>
+                    <span className="label-text text-xl text-black font-bold">
+                      Name
+                    </span>
                   </label>
                   <input
                     type="text"
                     name="name"
                     placeholder="Enter Your Name"
-                    className="input input-bordered"
+                    className="input input-bordered bg-white text-xl"
                     required
                   />
                 </div>
                 <div className="form-control">
                   <label className="label">
-                    <span className="label-text text-xl">Email</span>
+                    <span className="label-text text-xl text-black font-bold">
+                      Email
+                    </span>
                   </label>
                   <input
                     type="email"
                     name="email"
                     placeholder="Enter Your Email"
-                    className="input input-bordered"
+                    className="input input-bordered bg-white text-xl"
                     required
                   />
                 </div>
                 <div className="form-control">
                   <label className="label">
-                    <span className="label-text text-xl">Password</span>
+                    <span className="label-text text-xl text-black font-bold">
+                      Password
+                    </span>
                   </label>
                   <input
                     type={showPassword ? "text" : "Password"}
                     name="password"
                     placeholder="Enter Your Password"
-                    className="input input-bordered relative"
+                    className="input input-bordered relative bg-white text-xl"
                     required
                   />
                   <span
                     onClick={() => setShowPassword(!showPassword)}
-                    className="cursor-pointer absolute left-96 mt-14"
+                    className="cursor-pointer absolute left-96 text-xl text-black mt-14"
                   >
                     {showPassword ? "Show" : "Hide"}
                   </span>
@@ -115,26 +134,47 @@ const Registation = () => {
                       id="terms"
                       className="w-[25px] h-[25px] cursor-pointer"
                     />
-                    <p className="text-xl">
+                    <p className="text-xl text-black font-medium">
                       Please Accept our Terms and Conditions
                     </p>
                   </div>
                 </div>
                 <div className="form-control mt-6">
-                  <button className="btn bg-sky-800 text-xl text-white">
+                  <button className="btn bg-sky-800 text-xl text-white border-0">
                     Registation
                   </button>
                 </div>
-
                 {registerError && <p>{registerError}</p>}
                 {success && <p>{success}</p>}
-              </form>
-              <p className="text-lg text-center py-3">
+
+                <div className="flex items-center justify-center py-4">
+                  <div className="w-40 h-[1px] m-auto bg-white"></div>
+                  {/*---------Google-----Login-------*/}
+                  <div
+                    onClick={handleGoogleSingIn}
+                    className="w-16 h-16 m-auto border-2 rounded-full"
+                  >
+                    <img
+                      src="https://i.ibb.co.com/NxJDLSr/Google-Loging.png"
+                      className="cursor-pointer object-cover"
+                    />
+                  </div>
+                  <div className="w-40 h-[1px] m-auto bg-white"></div>
+                </div>
+
+
+                <p className="text-lg text-center text-black">
                 Allready have an account ? Please{" "}
-                <Link to="/login" className="text-xl underline">
+                <Link
+                  to="/login"
+                  className="text-xl underline text-rose-600 font-bold"
+                >
                   Login
                 </Link>
               </p>
+              </form>
+
+
             </div>
           </div>
         </div>

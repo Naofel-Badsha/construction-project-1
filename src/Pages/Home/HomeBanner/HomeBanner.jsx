@@ -77,7 +77,7 @@ const HomeBanner = () => {
                 </p>
               </div>
               <Link to="/about">
-                <button className="text-xl text-white bg-sky-900 px-7 py-3 hover:shadow-md hover:shadow-red-400 rounded-lg">
+                <button className="text-xl text-white bg-sky-900 px-7 py-3 hover:shadow-md hover:shadow-teal-400 rounded-lg">
                   About More
                 </button>
               </Link>

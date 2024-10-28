@@ -58,78 +58,87 @@ const Login = () => {
           <div className="w-full">
             <img
               src="https://i.ibb.co/dQMwg11/login-1.webp"
-              className="w-full rounded-lg"
+              className="w-full h-[550px] object-cover rounded-lg border-2"
             />
           </div>
           {/*------------Stape--------2--------*/}
           <div className="w-full">
-            <div className="card bg-base-100 w-full ">
+            <div className="card bg-[#8b9db5] w-full ">
               <form onSubmit={handelSumitLogin} className="card-body">
                 <div className="form-control">
                   <label className="label">
-                    <span className="label-text text-xl">Email</span>
+                    <span className="label-text text-xl text-black font-bold">
+                      Email
+                    </span>
                   </label>
                   <input
                     type="email"
                     name="email"
                     placeholder="Enter Your Email"
-                    className="input input-bordered"
+                    className="input input-bordered bg-white text-black text-xl"
                     required
                   />
                 </div>
                 <div className="form-control">
                   <label className="label">
-                    <span className="label-text text-xl">Password</span>
+                    <span className="label-text text-xl text-black font-bold">
+                      Password
+                    </span>
                   </label>
                   <input
                     type={showPassword ? "password" : "Text"}
                     name="password"
                     placeholder="Enter Your Password"
-                    className="input input-bordered"
+                    className="input input-bordered bg-white text-black text-xl"
                     required
                   />
                   <span
                     onClick={() => setShowPassword(!showPassword)}
-                    className="absolute ml-96 mt-14 cursor-pointer"
+                    className="absolute ml-96 mt-14 cursor-pointer text-black font-bold text-xl"
                   >
                     {showPassword ? "Hide" : "show"}
                   </span>
                   <label className="label">
                     <a
                       href="#"
-                      className="label-text-alt link link-hover text-lg"
+                      className="link hover:text-cyan-700 text-lg text-black font-medium "
                     >
                       Forgot password?
                     </a>
                   </label>
                 </div>
                 <div className="form-control mt-6">
-                  <button className="btn bg-sky-800 text-xl text-white">
+                  <button className="btn bg-sky-800 text-xl text-white border-0">
                     Login
                   </button>
                 </div>
                 {singInError && <p>Rite Type A Password </p>}
                 {success && <p>Login SuccessFully</p>}
 
-                <div className="flex items-center justify-center gap-6 py-4">
-                  <div className="w-full h-[1px] bg-white"></div>
-                  <div className="border-2 rounded-full  ">
-                    <h2
-                      onClick={handleGoogleSingIn}
-                      className="text-5xl cursor-pointer text-center w-[60px] h-[60px] mt-1"
-                    >
-                      G
-                    </h2>
+                <div className="flex items-center justify-center py-4">
+                  <div className="w-40 h-[1px] m-auto bg-white"></div>
+                  {/*---------Google-----Login-------*/}
+                  <div
+                    onClick={handleGoogleSingIn}
+                    className="w-16 h-16 m-auto border-2 rounded-full"
+                  >
+                    <img
+                      src="https://i.ibb.co.com/NxJDLSr/Google-Loging.png"
+                      className="cursor-pointer object-cover"
+                    />
                   </div>
-                  <div className="w-full h-[1px] bg-white"></div>
+                  <div className="w-40 h-[1px] m-auto bg-white"></div>
                 </div>
+                <p className="text-lg text-center py-3 text-black">
+                  Dont have an account ?{" "}
+                  <Link
+                    to="/registation"
+                    className="text-xl underline text-rose-600 font-bold"
+                  >
+                    Register
+                  </Link>
+                </p>
               </form>
-              <p className="text-lg text-center py-3">
-                Dont have an account ?{" "}
-                <Link to="/registation" className="text-xl underline">
-                  Register
-                </Link>
-              </p>
             </div>
           </div>
         </div>
